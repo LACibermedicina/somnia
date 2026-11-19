@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Somnia – Manual do usuário</title>
+<style>
+:root{--ink:#1b1f3b;--mute:#4a5073;--pri:#4a31b8;--bg:#f4f0ff;--card:#fff;--line:#d9d2f3}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#e9f3ff,#f4f0ff 40%,#fff0f7) fixed;color:var(--ink);font:16px/1.65 system-ui,-apple-system,'Segoe UI',Roboto,sans-serif}
+header{background:#fff;border-bottom:1px solid var(--line);padding:16px 22px;position:sticky;top:0;z-index:2}
+header a.back{float:right;color:var(--pri);font-weight:600;text-decoration:none}
+h1{margin:0;font-size:24px;color:var(--pri)}
+.wrap{max-width:1000px;margin:0 auto;padding:22px;display:grid;grid-template-columns:230px 1fr;gap:26px}
+@media(max-width:800px){.wrap{grid-template-columns:1fr}nav{position:static!important}}
+nav{position:sticky;top:84px;align-self:start;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
+nav a{display:block;padding:5px 8px;color:var(--ink);text-decoration:none;border-radius:8px;font-size:14.5px}nav a:hover{background:var(--bg)}
+section{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 24px;margin-bottom:18px}
+h2{margin:0 0 8px;font-size:21px}h3{margin:16px 0 4px;font-size:16.5px}
+p,li{color:var(--ink)}ul,ol{padding-left:22px}.note{background:#fff7d6;border:1px solid #e8cf6a;border-radius:10px;padding:10px 14px;margin:12px 0}
+.warn{background:#ffe9ee;border:1px solid #e79ab0;border-radius:10px;padding:10px 14px;margin:12px 0}
+table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid var(--line);padding:6px 10px;text-align:left}th{background:var(--bg)}
+kbd{background:#eee;border:1px solid #bbb;border-bottom-width:2px;border-radius:5px;padding:0 6px;font-size:13px}
+:focus-visible{outline:3px solid var(--pri);outline-offset:2px}
+</style>
+</head>
+<body>
+<header><a class="back" href="/">Voltar ao Somnia</a><h1>Somnia · Manual do usuário</h1></header>
+<div class="wrap">
+<nav aria-label="Índice">
+<a href="#desktop">A área de trabalho</a><a href="#comecar">1. Primeiros passos</a><a href="#menu">2. O menu</a><a href="#museu">3. Museu 3D</a><a href="#cenarios">Cenários</a><a href="#loja">Loja de jogos</a><a href="#cartas">4. Cartas e decks</a><a href="#sonhos">5. Registro de sonhos</a><a href="#consultas">6. Consultas</a><a href="#creditos">7. Créditos</a><a href="#jornada">8. Jornada e conquistas</a><a href="#guildas">9. Guildas</a><a href="#estudio">10. Estúdio de jogos</a><a href="#biblio">11. Biblioteca</a><a href="#criar">12. Criar cartas</a><a href="#historico">13. Histórico</a><a href="#pro">14. Para profissionais</a><a href="#privacidade">15. Privacidade e segurança</a><a href="#faq">16. Perguntas frequentes</a>
+</nav>
+<main>
+<section id="desktop"><h2>A área de trabalho</h2>
+<p>O Somnia funciona como um computador: no fundo, o mascote <b>Secreto-Bot</b> (um robô de juta com jaleco, tela de eletrocardiograma e um balão) acompanha o seu mouse com o olhar e de vez em quando acena. Ele também é o seu <b>avatar padrão</b> nas aventuras do Museu 3D.</p>
+<ul><li><b>Barra de menus (topo):</b> o menu <b>Somnia</b> traz sua jornada, a carteira, a troca de <b>cenário</b>, o manual e Sair. O menu <b>Ir</b> abre qualquer aplicativo e o menu <b>Janela</b> controla a janela atual. À direita ficam seus créditos, nível e o relógio.</li>
+<li><b>Dock (embaixo):</b> os aplicativos principais (Área de trabalho, Museu, Loja, Cartas, Sonhos, Consultas e Carteira). Passe o mouse num ícone para ler o que ele faz. O botão <b>⊞ Todos os apps</b> abre a lista completa (Guildas, Estúdio, Biblioteca, Jornada, Criar, Histórico e áreas de profissionais).</li>
+<li><b>Ícones na área de trabalho (à direita):</b> <b>Aventura no Museu</b>, os <b>jogos que você instalou</b> e <b>Instalar jogos</b> (abre a Loja). Dê <b>dois cliques</b> (ou selecione e tecle Enter; no celular, um toque) para abrir.</li>
+<li><b>Instalar jogos:</b> na Loja, abra um jogo e use <b>Instalar no desktop</b> (os pagos são instalados ao desbloquear). Para tirar, use <b>Remover do desktop</b>.</li>
+<li><b>Janelas:</b> cada aplicativo abre numa janela. O botão vermelho fecha, o amarelo minimiza e o verde maximiza. A tecla <kbd>Esc</kbd> volta à área de trabalho.</li></ul>
+<div class="note">A animação do mascote pausa quando você abre o Museu e fica estática se o seu aparelho estiver configurado para reduzir movimentos. Se o navegador não suportar gráficos 3D, aparece a imagem do mascote no lugar.</div></section>
+<section id="comecar"><h2>1. Primeiros passos</h2>
+<p>O Somnia reúne mitologia, psicologia e criação visual. Você explora mitos em um museu 3D e em cartas, registra sonhos e conversa com especialistas.</p>
+<ol><li>Na tela inicial, toque em <b>Criar conta</b>, escolha um usuário (3 a 20 letras minúsculas, números ou _), um nome de exibição e uma senha com pelo menos 8 caracteres.</li><li>Ao criar a conta você recebe <b>100 créditos de boas-vindas</b> (o valor pode ser alterado pelo administrador).</li><li>Para voltar depois, use <b>Entrar</b>. O ícone de chave no topo altera sua senha.</li></ol>
+<div class="note">Se esquecer a senha, procure o administrador do seu servidor. Não há recuperação automática por e-mail.</div></section>
+<section id="menu"><h2>2. O menu</h2>
+<p>Os ícones na parte de baixo da tela formam o <b>dock</b>, o menu principal. Passe o mouse (ou mantenha o dedo) sobre um ícone para ler o que ele faz.</p>
+<table><tr><th>Ícone</th><th>Área</th><th>Para quê</th></tr>
+<tr><td>🏛️</td><td>Museu 3D</td><td>Passear por galerias com quadros e esculturas</td></tr><tr><td>🎮</td><td>Loja de jogos</td><td>Descobrir, desbloquear e jogar</td></tr><tr><td>🃏</td><td>Cartas</td><td>Explorar mitos e buscar com IA</td></tr><tr><td>📚</td><td>Coleção</td><td>Cartas que você já coletou</td></tr><tr><td>🌙</td><td>Sonhos</td><td>Registrar sonhos e ler pareceres</td></tr><tr><td>🧙</td><td>Consultas</td><td>Perguntar a especialistas</td></tr><tr><td>🏰</td><td>Guildas</td><td>Comunidades por tema</td></tr><tr><td>🎲</td><td>Estúdio</td><td>Gerar bases para jogos</td></tr><tr><td>📜</td><td>Biblioteca</td><td>Fontes e bibliografia</td></tr><tr><td>🏆</td><td>Jornada</td><td>Nível, conquistas e recompensas</td></tr><tr><td>🪙</td><td>Carteira</td><td>Créditos, pedidos e doações</td></tr><tr><td>✍️</td><td>Criar</td><td>Enviar novas cartas</td></tr><tr><td>⏳</td><td>Histórico</td><td>Ver e desfazer suas ações</td></tr><tr><td>🩺 🏺 👑</td><td>Clínica, Técnico, Admin</td><td>Aparecem só para quem tem esse papel</td></tr></table></section>
+<section id="museu"><h2>3. Museu 3D</h2>
+<p>Uma ilha flutuante com uma galeria curva. Cada carta aprovada vira um quadro, com uma placa ao lado trazendo o título e a descrição. Esculturas no centro e nas laterais representam as cartas mais raras e os sonhos compartilhados pela comunidade.</p>
+<h3>Como se mover</h3>
+<ul><li><b>Clique duplo no chão:</b> o personagem caminha até o ponto (aparece uma marca dourada no destino). Funciona nos três modos de câmera.</li><li><b>Clique duplo numa obra, escultura ou avatar:</b> o personagem caminha até lá e abre a carta (ou a conversa) ao chegar.</li><li><b>Clique simples</b> numa obra abre a carta. Passar o mouse sobre uma obra mostra a placa com a descrição.</li><li><b>Minimapa</b> (canto superior esquerdo): mostra você (seta amarela), obras, esculturas e avatares. Clique nele para caminhar até o ponto.</li><li><kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> ou setas: andar (cancela a caminhada automática). <kbd>Shift</kbd>: correr. Arraste o mouse ou o dedo: girar a câmera.</li><li><kbd>V</kbd> ou botão <b>Câmera</b>: alterna entre <b>isométrica</b> (vista de cima, estilo RPG de ação), <b>3ª pessoa</b> e <b>1ª pessoa</b>.</li><li><kbd>E</kbd>: interagir com o que está em foco. No celular, use os botões de direção ou toque duas vezes no chão.</li><li><b>Galeria</b>: troca de página quando houver mais de 24 obras. <b>Som</b>: liga a música ambiente.</li></ul>
+<h3>Avatares especialistas</h3>
+<p>Os personagens espalhados pela galeria comentam as obras sob o olhar da saúde mental ou da história e antropologia. Eles são <b>ilustrativos</b>: o texto vem da descrição da carta. Para uma resposta real, use o botão <b>Consultar um especialista</b>.</p>
+<div class="note">O museu usa gráficos 3D do navegador (WebGL). Em aparelhos muito antigos, use as áreas Cartas e Sonhos.</div></section>
+<section id="cenarios"><h2>Cenários</h2>
+<p>O Somnia muda de visual por inteiro, e o museu 3D acompanha. Use o seletor <b>Cenário</b> no topo (ou o botão 🎨 dentro do museu, ou as opções na tela de entrada). A escolha fica salva neste aparelho.</p>
+<table><tr><th>Cenário</th><th>Ambiente</th></tr><tr><td>Místico</td><td>Floresta noturna, névoa, lua e brilhos em verde-água e violeta</td></tr><tr><td>Espacial</td><td>Estação orbital com estrelas, planetas e luzes neon</td></tr><tr><td>Mágico</td><td>Crepúsculo encantado com estrelas douradas e tons de rosa</td></tr><tr><td>Mangá</td><td>Preto e branco com retícula, traços de tinta e acentos vermelhos</td></tr><tr><td>Low poly</td><td>Formas facetadas em tons de pôr do sol</td></tr></table></section>
+<section id="loja"><h2>Loja de jogos</h2>
+<p>A Loja reúne jogos do ecossistema: bases de jogo no formato Somnia (regras e cartas para ler e jogar na mesa), jogos <b>standalone</b> que rodam no próprio navegador e listagens de jogos hospedados em outros sites.</p>
+<ul><li>Use a busca, os gêneros e a ordenação (populares, recentes, mais bem avaliados, menor preço) para encontrar jogos. O banner de destaque mostra o mais popular.</li><li>Toque num jogo para ver detalhes. Jogos pagos pedem <b>desbloqueio com créditos</b>, uma única vez. Depois você joga, lê ou abre quando quiser.</li><li><b>Jogar:</b> jogos standalone abrem em tela cheia, em um ambiente isolado: eles não acessam sua conta nem a internet. Feche com <kbd>Esc</kbd>.</li><li><b>Avaliar:</b> depois de desbloquear, dê de 1 a 5 estrelas.</li><li>As cartas e jogos que você vê já passaram pela aprovação do administrador.</li></ul></section>
+<section id="cartas"><h2>4. Cartas e decks</h2>
+<p>Cada carta tem raridade (Comum, Rara, Épica ou Lendária), resumo, histórico e detalhamento. Cartas do mesmo contexto formam um <b>deck</b>.</p>
+<ul><li><b>Busca com IA:</b> descreva em palavras o que procura, por exemplo “criaturas que pesam sobre o peito durante a noite”. Sem IA ativa no servidor, a busca compara palavras.</li><li><b>Abrir carta:</b> o resumo é livre. O <b>histórico e o detalhamento</b> custam créditos (ver seção 7), pagos uma única vez por carta.</li><li><b>Coletar:</b> dentro da carta, toque em Coletar para ganhar XP. Completar um deck dá bônus.</li><li><b>Relações e fontes:</b> você pode ligar uma carta a outras (mito relacionado, símbolo, arquétipo) e a obras da Biblioteca.</li></ul></section>
+<section id="sonhos"><h2>5. Registro de sonhos</h2>
+<p>Conte seu sonho com título, narrativa, afetos sentidos, elementos e símbolos, intensidade e se é recorrente. Os botões de pistas (“Onde eu estava?”) ajudam a começar. O botão <b>Sugerir elementos com IA</b> organiza afetos e símbolos citados, sem interpretar nem diagnosticar.</p>
+<h3>Quem pode ler</h3>
+<table><tr><th>Visibilidade</th><th>Quem lê</th></tr><tr><td>Privado</td><td>Somente você. Nem o administrador lê.</td></tr><tr><td>Profissionais verificados</td><td>Você e profissionais verificados, que podem emitir pareceres</td></tr><tr><td>Comunidade (anônimo)</td><td>Qualquer usuário, sem seu nome, mediante créditos. Publicar custa créditos.</td></tr></table>
+<div class="warn"><b>Cuidado:</b> não escreva nomes, endereços ou dados que identifiquem você ou outras pessoas. O Somnia não faz diagnóstico nem substitui atendimento. Em sofrimento intenso, procure um profissional de saúde ou ligue para o <b>CVV, 188</b> (gratuito, 24 horas).</div></section>
+<section id="consultas"><h2>6. Consultas com especialistas</h2>
+<ol><li>Em <b>Consultas</b>, escolha a área (saúde mental ou história e antropologia), o tema e escreva a pergunta.</li><li>O valor da consulta fica <b>reservado</b> na sua carteira.</li><li>Quando um profissional verificado responde, o valor é pago a ele e a resposta aparece em “Minhas consultas”.</li></ol>
+<p>Pareceres de especialistas sobre sonhos compartilhados também podem ser lidos pagando uma pequena quantia, que vai para quem escreveu o parecer. Se você é a pessoa que registrou o sonho, lê os pareceres dele de graça.</p></section>
+<section id="creditos"><h2>7. Créditos</h2>
+<p>Créditos são uma moeda interna do Somnia, sem valor em dinheiro. Preços padrão (o administrador pode alterar):</p>
+<table><tr><th>Ação</th><th>Padrão</th></tr><tr><td>Boas-vindas</td><td>100 créditos</td></tr><tr><td>Ver histórico e detalhamento de uma carta</td><td>3</td></tr><tr><td>Ver um sonho publicado pela comunidade</td><td>5</td></tr><tr><td>Ver um parecer de especialista</td><td>3</td></tr><tr><td>Consulta com especialista</td><td>15</td></tr><tr><td>Publicar uma carta</td><td>20</td></tr><tr><td>Publicar um sonho na comunidade</td><td>10</td></tr></table>
+<p>A tela <b>Carteira</b> mostra o saldo e o extrato. Nela você também pode:</p>
+<ul><li><b>Pedir mais créditos:</b> informe a quantidade e o motivo. O administrador decide se entrega e quanto, e você vê a resposta na própria Carteira.</li><li><b>Doar créditos:</b> escolha uma pessoa e a quantidade para ajudá-la a desbloquear histórias e consultas.</li></ul>
+<p>Cada conteúdo desbloqueado fica seu para sempre. Especialistas ganham créditos a cada novo leitor de seus pareceres.</p></section>
+<section id="jornada"><h2>8. Jornada e conquistas</h2>
+<p>Cada ação rende XP (coletar cartas, registrar sonhos, publicar, participar). A cada 100 XP você sobe de nível: Novato do Sonhar, Aprendiz Onírico, Explorador de Mitos, Cartógrafo dos Sonhos e Mestre do Sonhar. A ficha de personagem mostra seus atributos (Sabedoria, Empatia, Erudição e Carisma) e as <b>8 conquistas</b>. Ao cumprir uma, toque em <b>Resgatar</b> para receber créditos.</p></section>
+<section id="guildas"><h2>9. Guildas</h2>
+<p>Comunidades por tema. Crie uma guilda informando nome, tema e descrição, ou entre em uma existente para conversar. Só membros escrevem mensagens.</p></section>
+<section id="estudio"><h2>10. Estúdio de jogos</h2>
+<p>Gere uma base descritiva para jogos de <b>tabuleiro</b>, <b>RPG</b> ou <b>cartas</b> a partir de todas as cartas, de um deck, ou de uma carta e suas relacionadas. Com IA ativa, o texto é mais elaborado. Sem IA, o app monta um modelo básico. O resultado pode ser copiado ou baixado em .md.</p>
+<p>Também é possível <b>gerar um deck por tema</b>: a IA cria cartas usando só o que já está cadastrado, e elas entram como rascunho para aprovação.</p></section>
+<section id="biblio"><h2>11. Biblioteca</h2>
+<p>Obras clássicas e estudos de psicologia, medicina do sono, neurociência, mitologia e antropologia, com lista em formato ABNT simplificado. Toda fonte começa como “a verificar” e só o administrador a marca como “verificada”. <b>Confira edição, ano e páginas antes de citar.</b></p></section>
+<section id="criar"><h2>12. Criar cartas</h2>
+<p>Em <b>Criar</b>, arraste PDFs, imagens ou áudios, descreva o item e use <b>Estruturar com IA</b> para preencher título, deck, raridade, histórico e detalhes. Revise tudo, já que a IA pode errar, e envie. Publicar tem custo em créditos e a carta passa por aprovação do administrador antes de aparecer para todos.</p></section>
+<section id="historico"><h2>13. Histórico</h2>
+<p>Toda criação, edição ou exclusão fica registrada com o estado anterior. Você vê e restaura as suas ações; o administrador vê todas. Restaurar pede confirmação, pois sobrescreve mudanças posteriores no mesmo item. Sonhos não entram no histórico, para proteger sua privacidade; por isso um sonho excluído não volta.</p></section>
+<section id="pro"><h2>14. Para profissionais</h2>
+<ol><li>Em <b>Sonhos</b>, no fim da página, use <b>Sou profissional</b>: escolha a área e informe seu registro (CRP, CRM etc.) ou instituição.</li><li>O administrador confere o registro e o verifica. Só então aparecem as áreas <b>Análise clínica</b> (saúde mental) ou <b>Laboratório técnico</b> (história e antropologia).</li><li>Nessas áreas você lê sonhos compartilhados e publica pareceres. Pareceres de saúde mental incluem leitura clínica, afetos e nível de atenção. Os históricos incluem contexto cultural, nível de evidência, paralelos e fontes.</li><li>Você ganha créditos quando outras pessoas leem seus pareceres ou quando responde consultas.</li></ol>
+<div class="warn">Pareceres e respostas na plataforma não substituem atendimento clínico. Evite diagnósticos e use o nível “recomendar avaliação presencial” quando houver sinais de sofrimento.</div></section>
+<section id="privacidade"><h2>15. Privacidade e segurança</h2>
+<ul><li>Sua senha é guardada de forma protegida no servidor, nunca em texto aberto.</li><li>Sonhos privados só você lê. Sonhos compartilhados aparecem sem seu nome.</li><li>Use uma senha longa e exclusiva e saia da conta em computadores compartilhados.</li><li>Seus dados ficam no servidor do administrador. Pergunte a ele sobre a política de privacidade e como pedir a exclusão dos seus dados.</li></ul></section>
+<section id="faq"><h2>16. Perguntas frequentes</h2>
+<h3>Meus créditos acabaram.</h3><p>Abra a Carteira e peça mais créditos explicando o motivo. Você também pode ganhar créditos resgatando conquistas ou recebendo doações.</p>
+<h3>Paguei por uma carta e ela continua bloqueada.</h3><p>Aguarde alguns segundos e recarregue a página. Se persistir, avise o administrador.</p>
+<h3>O museu não abre ou está lento.</h3><p>Ele exige WebGL e uma conexão estável (as bibliotecas 3D carregam de um servidor externo). Tente outro navegador ou use as áreas Cartas e Sonhos.</p>
+<h3>A IA não responde.</h3><p>O administrador pode ter desativado a IA, ou o limite horário de uso foi atingido. As áreas funcionam sem IA, com recursos mais simples.</p>
+<h3>Excluí algo sem querer.</h3><p>Abra Histórico e restaure a ação (exceto sonhos).</p></section>
+</main></div>
+</body>
+</html>

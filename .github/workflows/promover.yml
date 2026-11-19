@@ -1,0 +1,29 @@
+# Somnia — promove a homologação para produção: fast-forward main <- teste e deploy de produção.
+name: promover
+on:
+  workflow_dispatch:
+    inputs:
+      confirmar: { description: 'Digite PROMOVER para confirmar', required: true }
+permissions:
+  contents: write
+jobs:
+  avancar-main:
+    if: ${{ inputs.confirmar == 'PROMOVER' }}
+    runs-on: ubuntu-latest
+    outputs:
+      sha: ${{ steps.ff.outputs.sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - id: ff
+        run: |
+          git fetch origin teste main
+          git checkout -B main origin/main
+          git merge --ff-only origin/teste
+          git push origin main
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+  deploy-producao:
+    needs: avancar-main
+    uses: ./.github/workflows/deploy.yml
+    with: { ambiente: producao, ref: "${{ needs.avancar-main.outputs.sha }}" }
+    secrets: inherit

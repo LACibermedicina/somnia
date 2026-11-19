@@ -1,0 +1,35 @@
+# Somnia — stack de um ambiente (producao ou teste). Uso pelo deploy:
+#   docker compose -p somnia        --env-file .env up -d --build   (produção, porta 3401)
+#   docker compose -p somnia-teste  --env-file .env up -d --build   (homologação /teste/, porta 3402)
+# Banco SQLite e uploads ficam em DATA_PATH no host (faça backup: deploy/backup.sh).
+services:
+  app:
+    image: somnia:${AMBIENTE:-producao}
+    build: .
+    container_name: ${CONTAINER:-somnia-app}
+    restart: unless-stopped
+    env_file:
+      - path: .env
+        required: true
+      - path: .env.gerado
+        required: false
+      - path: .env.segredos
+        required: false
+    environment:
+      HOST: 0.0.0.0
+      PORT: "3000"
+      DATA_DIR: /data
+    ports:
+      - "127.0.0.1:${PORT_HOST:-3401}:3000"
+    volumes:
+      - ${DATA_PATH:-/var/lib/somnia}:/data
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    cap_drop: [ALL]
+    mem_limit: 384m
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }

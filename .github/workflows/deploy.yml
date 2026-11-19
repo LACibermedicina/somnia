@@ -1,0 +1,96 @@
+# Somnia — CI/CD: testes + deploy na VPS via SSH (rsync) com rollback.
+#   push em "teste" -> homologação https://somnia.m3d.pro/teste/   (/opt/somnia-teste, porta 3402)
+#   push em "main"  -> produção    https://somnia.m3d.pro/         (/opt/somnia,       porta 3401)
+# Secrets: VPS_HOST, VPS_USER, VPS_SSH_KEY, VPS_KNOWN_HOSTS (ssh-keyscan -H <host>), SERVIDOR_ENV (opcional: ANTHROPIC_API_KEY=...)
+name: deploy
+on:
+  push:
+    branches: [main, teste]
+    paths-ignore: ['**.md', 'docs/**']
+  workflow_dispatch:
+    inputs:
+      ambiente: { description: 'producao ou teste', required: true, default: teste, type: choice, options: [teste, producao] }
+      configurar_vps: { description: 'Rodar setup-vps.sh antes (Docker, Nginx, SSL, UFW)', required: false, default: false, type: boolean }
+  workflow_call:
+    inputs:
+      ambiente: { required: true, type: string }
+      ref: { required: false, type: string, default: '' }
+    secrets:
+      VPS_HOST: { required: true }
+      VPS_USER: { required: true }
+      VPS_SSH_KEY: { required: true }
+      VPS_KNOWN_HOSTS: { required: true }
+      SERVIDOR_ENV: { required: false }
+concurrency:
+  group: deploy-${{ inputs.ambiente || github.ref_name }}
+  cancel-in-progress: false
+permissions:
+  contents: read
+jobs:
+  testes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: "${{ inputs.ref || github.sha }}" }
+      - uses: actions/setup-node@v4
+        with: { node-version: '22' }
+      - name: Sintaxe
+        run: |
+          for f in server.js src/*.js public/*.js public/hub/*.js public/hub/modules/*.js; do node --check "$f"; done
+          node -e "JSON.parse(require('fs').readFileSync('public/mitos/santos.json','utf8'))"
+          bash -n deploy/setup-vps.sh && bash -n deploy/remote-deploy.sh
+      - name: Testes de API (62) e marketplace (56)
+        run: |
+          DATA_DIR=$RUNNER_TEMP/sd PORT=3999 ROOT_PASSWORD=testroot-123456 node server.js > $RUNNER_TEMP/srv.log 2>&1 &
+          for i in $(seq 1 20); do curl -fsS http://127.0.0.1:3999/healthz >/dev/null 2>&1 && break; sleep 0.5; done
+          node tests/api.test.js
+          node tests/market.test.js
+      - name: Testes do módulo Mitos e homologação
+        run: node tests/mitos.test.js
+
+  publicar:
+    needs: testes
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment: ${{ (inputs.ambiente || (github.ref_name == 'main' && 'producao' || 'teste')) }}
+    env:
+      AMBIENTE: ${{ inputs.ambiente || (github.ref_name == 'main' && 'producao' || 'teste') }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: "${{ inputs.ref || github.sha }}" }
+      - name: Chave SSH
+        env:
+          KEY: ${{ secrets.VPS_SSH_KEY }}
+          KNOWN: ${{ secrets.VPS_KNOWN_HOSTS }}
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$KEY" > ~/.ssh/id_deploy && chmod 600 ~/.ssh/id_deploy
+          printf '%s\n' "$KNOWN" > ~/.ssh/known_hosts && chmod 644 ~/.ssh/known_hosts
+      - name: Enviar arquivos (rsync)
+        env: { HOST: "${{ secrets.VPS_HOST }}", USR: "${{ secrets.VPS_USER }}" }
+        run: |
+          DIR=/opt/somnia; [ "$AMBIENTE" = teste ] && DIR=/opt/somnia-teste
+          echo "DIR=$DIR" >> "$GITHUB_ENV"
+          ssh -i ~/.ssh/id_deploy "$USR@$HOST" "sudo mkdir -p $DIR && sudo chown \$(id -u):\$(id -g) $DIR"
+          rsync -az --delete -e "ssh -i ~/.ssh/id_deploy" \
+            --exclude '.git/' --exclude 'data/' --exclude '.env' --exclude '.env.gerado' --exclude '.env.segredos' --exclude 'node_modules/' \
+            ./ "$USR@$HOST:$DIR/"
+      - name: Segredos do servidor (SERVIDOR_ENV -> .env.segredos)
+        env: { HOST: "${{ secrets.VPS_HOST }}", USR: "${{ secrets.VPS_USER }}", SENV: "${{ secrets.SERVIDOR_ENV }}" }
+        run: |
+          if [ -n "$SENV" ]; then
+            printf '%s\n' "$SENV" | ssh -i ~/.ssh/id_deploy "$USR@$HOST" "umask 077; cat > $DIR/.env.segredos"
+          else echo "SERVIDOR_ENV vazio: IA desativada (tradução de conteúdo, flashcards por IA e guia usam o modo local)."; fi
+      - name: Configurar VPS (primeira vez ou sob demanda)
+        env: { HOST: "${{ secrets.VPS_HOST }}", USR: "${{ secrets.VPS_USER }}", FORCE: "${{ inputs.configurar_vps }}" }
+        run: |
+          ssh -i ~/.ssh/id_deploy "$USR@$HOST" "if [ '$FORCE' = 'true' ] || [ ! -f $DIR/.env ]; then sudo bash $DIR/deploy/setup-vps.sh --ambiente $AMBIENTE; else echo 'VPS já configurada'; fi"
+      - name: Publicar com rollback
+        env: { HOST: "${{ secrets.VPS_HOST }}", USR: "${{ secrets.VPS_USER }}" }
+        run: ssh -i ~/.ssh/id_deploy "$USR@$HOST" "sudo bash $DIR/deploy/remote-deploy.sh --ambiente $AMBIENTE"
+      - name: Verificar no domínio
+        run: |
+          URL=https://somnia.m3d.pro/; [ "$AMBIENTE" = teste ] && URL=https://somnia.m3d.pro/teste/
+          for i in $(seq 1 10); do curl -fsS "${URL}versao" && exit 0; sleep 3; done
+          echo "::warning::$URL ainda não respondeu (DNS/SSL pendente?). O container está saudável na VPS."

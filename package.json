@@ -1,0 +1,13 @@
+{
+  "name": "somnia",
+  "version": "0.1.0-alpha",
+  "description": "Somnia: biblioteca de mitos (cards HQ, cartas RPG, flashcards), museu 3D, sonhos e consultas",
+  "main": "server.js",
+  "private": true,
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node server.js",
+    "reset-root": "node server.js --reset-root",
+    "test": "make test"
+  }
+}

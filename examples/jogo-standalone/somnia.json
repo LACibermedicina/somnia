@@ -1,0 +1,12 @@
+{
+  "title": "Caça às Estrelas",
+  "description": "Mini jogo de exemplo: clique nas estrelas que caem em 20 segundos.",
+  "genre": "Arcade",
+  "tags": [
+    "arcade",
+    "casual"
+  ],
+  "price": 0,
+  "version": "1.0",
+  "cover": "capa.png"
+}

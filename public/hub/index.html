@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Somnia — Mitos e Lendas de Santos</title>
+<meta name="description" content="Somnia: biblioteca de mitos e lendas de Santos e da Baixada Santista com cards ilustrados, cartas de personagens, flashcards e jogos.">
+<meta name="theme-color" content="#1b1035">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bangers&family=Fredoka:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="/hub/hub.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='54' r='38' fill='%23ffd43b'/%3E%3Ccircle cx='38' cy='50' r='7' fill='%23222'/%3E%3Ccircle cx='62' cy='50' r='7' fill='%23222'/%3E%3C/svg%3E">
+</head>
+<body>
+<div id="desktop">
+  <div id="wall" aria-hidden="true">
+    <div class="sky"></div><div class="stars"></div><div class="moon"></div>
+    <svg class="skyline" viewBox="0 0 1440 320" preserveAspectRatio="none">
+      <path d="M0 230 Q120 210 220 220 L260 160 Q300 120 360 110 Q420 104 470 150 L520 210 Q640 200 760 214 Q860 190 980 205 L1040 170 Q1080 150 1120 172 L1180 206 Q1320 196 1440 214 L1440 320 L0 320Z" fill="#140c2a"/>
+      <path d="M352 112 v-16 h8 v-8 h6 v8 h8 v16Z" fill="#140c2a"/><circle cx="363" cy="84" r="3" fill="#ffe066" opacity=".8"/>
+      <g fill="#ffe066" opacity=".55"><circle cx="600" cy="222" r="2"/><circle cx="640" cy="218" r="2"/><circle cx="700" cy="224" r="2"/><circle cx="880" cy="212" r="2"/><circle cx="1210" cy="214" r="2"/><circle cx="1290" cy="210" r="2"/></g>
+      <path class="wave" d="M0 262 Q60 252 120 262 T240 262 T360 262 T480 262 T600 262 T720 262 T840 262 T960 262 T1080 262 T1200 262 T1320 262 T1440 262 L1440 320 L0 320Z" fill="#1d1640"/>
+      <path class="wave w2" d="M0 284 Q60 274 120 284 T240 284 T360 284 T480 284 T600 284 T720 284 T840 284 T960 284 T1080 284 T1200 284 T1320 284 T1440 284 L1440 320 L0 320Z" fill="#251b52"/>
+    </svg>
+    <div class="fireflies"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  </div>
+  <header id="menubar">
+    <div class="mb-left"><button class="mb-logo" data-open="ajuda" aria-label="Somnia">◐</button><b>Somnia</b><span id="menu-app" class="mb-app"></span>
+      <button class="mb-item" data-open="biblioteca" data-i18n="biblioteca"></button><button class="mb-item" data-open="personagens" data-i18n="personagens"></button><button class="mb-item" data-open="jogos" data-i18n="jogos"></button><button class="mb-item" data-open="ajuda" data-i18n="ajuda"></button></div>
+    <div class="mb-right"><div id="flags" role="group" aria-label="Idioma"></div><button class="mb-btn" data-mute>🔊</button><button id="user" class="mb-btn"></button><span id="clock"></span></div>
+  </header>
+  <nav id="icons" aria-label="Aplicativos"></nav>
+  <main id="windows"></main>
+  <nav id="dock" aria-label="Dock"></nav>
+  <span id="ver"></span>
+  <div id="toasts" aria-live="polite"></div>
+</div>
+<noscript><p style="padding:2rem;color:#fff">O Somnia precisa de JavaScript ativado.</p></noscript>
+<script src="/hub/i18n.js"></script>
+<script src="/hub/art.js"></script>
+<script src="/hub/core.js"></script>
+<script src="/hub/modules/biblioteca.js"></script>
+<script src="/hub/modules/personagens.js"></script>
+<script src="/hub/modules/flashcards.js"></script>
+<script src="/hub/modules/jogos.js"></script>
+<script src="/hub/modules/grafo.js"></script>
+<script src="/hub/modules/outros.js"></script>
+<script>HUB.boot();</script>
+</body>
+</html>

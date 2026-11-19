@@ -1,0 +1,28 @@
+{
+  "format": "somnia-game",
+  "version": 1,
+  "title": "Noite das Sombras Vivas",
+  "description": "Base de RPG de mesa inspirada em pesadelos e criaturas do folclore. Exemplo de demonstração.",
+  "genre": "RPG",
+  "tags": [
+    "pesadelo",
+    "folclore",
+    "mesa"
+  ],
+  "mode": "rpg",
+  "content": "# Noite das Sombras Vivas\n\n## Conceito\nOs jogadores exploram um sonho compartilhado e enfrentam criaturas que nascem de medos reais.\n\n## Regras essenciais\n- Cada jogador começa com 3 pontos de Coragem.\n- Ao encarar uma criatura, role 2d6 e some a Coragem.\n- Resultado 9 ou mais: a criatura recua. 6 a 8: perde 1 de Coragem. Menos de 6: o sonho muda.\n\n## Progressão\nSobreviver a uma noite concede 1 ponto de Lucidez.",
+  "cards": [
+    {
+      "title": "Mara",
+      "deck": "Sono e Pesadelos",
+      "rarity": "Épica",
+      "summary": "Espírito que pesa sobre o peito de quem dorme."
+    },
+    {
+      "title": "Kanashibari",
+      "deck": "Sono e Pesadelos",
+      "rarity": "Comum",
+      "summary": "Imobilidade durante o sono."
+    }
+  ]
+}

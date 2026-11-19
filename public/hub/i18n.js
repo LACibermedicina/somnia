@@ -1,0 +1,97 @@
+/* Somnia Hub — dicionário estático da interface (5 idiomas mais falados + PT).
+   Conteúdo dos mitos é traduzido sob demanda pela IA contextual (/api/i18n), com cache no servidor. */
+(function () {
+  const D = {
+    pt: {
+      lang: 'Português', app: 'Somnia', tagline: 'Mitos, lendas e sonhos de Santos', welcome: 'Bem-vindo ao Somnia', welcome_sub: 'Escolha um portal para começar a explorar as lendas da Baixada Santista.',
+      biblioteca: 'Biblioteca', personagens: 'Personagens', flashcards: 'Flashcards', jogos: 'Jogos', grafo: 'Grafo', agenda: 'Agenda', museu: 'Museu 3D', comunidade: 'Comunidade', guia: 'Guia Lume', ajuda: 'Ajuda', sobre: 'Sobre',
+      p_bib: 'Mitos em cards ilustrados estilo HQ', p_chars: 'Cartas RPG dos personagens', p_games: 'Duelo de cartas, quiz e loja',
+      search: 'Buscar mito, lugar ou personagem…', all: 'Todos', sort_chrono: 'Cronológica', sort_az: 'A–Z', timeline: 'Linha do tempo', grid: 'Cards',
+      read_more: 'Ler a história', back: 'Voltar', sources: 'Fontes', primary: 'primária', secondary: 'secundária', characters_linked: 'Personagens do mito', study: 'Estudar flashcard', see_graph: 'Ver no grafo',
+      place: 'Local', era: 'Época', type: 'Tipo', rarity: 'Raridade', historic: 'Pessoa histórica', legend: 'Figura lendária', collective: 'Coletivo', devotion: 'Devoção', chronicle: 'Crônica', uncertain: 'Incerto',
+      attrs: 'Atributos lúdicos', ability: 'Habilidade', myths: 'Mitos', flip: 'Virar', front: 'Frente', backside: 'Verso',
+      wrong: 'Errei', hard: 'Difícil', easy: 'Fácil', due: 'para revisar', deck_all: 'Todos os mitos', print: 'Imprimir infográfico', gen_ai: 'Gerar por IA', save: 'Salvar',
+      q_trigger: 'Pergunta-gatilho', b_title: 'Síntese processual e simbólica', c_title: 'Apoio cognitivo analítico', d_title: 'Fluxograma de interpretação', e_title: 'Resumo crucial e referências',
+      c1: 'Manifestação central', c2: 'Contexto e antecedentes', c3: 'Pontos de inflexão e sinais', c4: 'Chave de leitura imediata', key_points: 'Pontos-chave', glossary: 'Siglas e termos', refs: 'Referências bibliográficas',
+      duel: 'Duelo de Cartas', quiz: 'Quiz dos Mitos', store: 'Loja do Somnia', choose_attr: 'Escolha um atributo da sua carta', you: 'Você', cpu: 'Oráculo', win: 'Você venceu a rodada!', lose: 'O Oráculo venceu a rodada.', tie: 'Empate!', next: 'Próxima', new_game: 'Novo jogo', score: 'Placar', correct: 'Correto!', incorrect: 'Não foi dessa vez.',
+      misterio: 'Mistério', coragem: 'Coragem', fe: 'Fé', astucia: 'Astúcia', assombro: 'Assombro',
+      graph_help: 'Arraste os nós. Curadores podem soltar um personagem sobre um mito para criar o vínculo.', notes: 'Notas do dia', notes_local: 'As notas ficam só neste navegador (nada é enviado ao servidor).', on_this_day: 'Neste dia', add_note: 'Adicionar nota',
+      login: 'Entrar', logout: 'Sair', visitor: 'Visitante', ask: 'Pergunte ao Lume sobre as lendas…', send: 'Enviar', mute: 'Silenciar', unmute: 'Ativar som',
+      translating: 'Traduzindo conteúdo…', tr_fail: 'Tradução de conteúdo indisponível: interface traduzida, textos mantidos no original.', close_hint: 'Clique duplo no fundo da área de trabalho fecha a janela ativa.',
+      community_soon: 'Chat em tempo real e videochamada entram na próxima iteração. Enquanto isso, use as guildas e o mural no Museu.', open_museum: 'Abrir o Museu', version: 'Versão', loading: 'Carregando…', none: 'Nada encontrado.', propose: 'Propor novo mito', sensitive: 'Tema sensível'
+    },
+    en: {
+      lang: 'English', app: 'Somnia', tagline: 'Myths, legends and dreams of Santos', welcome: 'Welcome to Somnia', welcome_sub: 'Pick a portal to start exploring the legends of the Santos coast.',
+      biblioteca: 'Library', personagens: 'Characters', flashcards: 'Flashcards', jogos: 'Games', grafo: 'Graph', agenda: 'Calendar', museu: '3D Museum', comunidade: 'Community', guia: 'Lume Guide', ajuda: 'Help', sobre: 'About',
+      p_bib: 'Myths as comic-style illustrated cards', p_chars: 'RPG character cards', p_games: 'Card duel, quiz and store',
+      search: 'Search myth, place or character…', all: 'All', sort_chrono: 'Chronological', sort_az: 'A–Z', timeline: 'Timeline', grid: 'Cards',
+      read_more: 'Read the story', back: 'Back', sources: 'Sources', primary: 'primary', secondary: 'secondary', characters_linked: 'Characters in this myth', study: 'Study flashcard', see_graph: 'See in graph',
+      place: 'Place', era: 'Period', type: 'Type', rarity: 'Rarity', historic: 'Historical person', legend: 'Legendary figure', collective: 'Collective', devotion: 'Devotion', chronicle: 'Chronicle', uncertain: 'Uncertain',
+      attrs: 'Game attributes', ability: 'Ability', myths: 'Myths', flip: 'Flip', front: 'Front', backside: 'Back',
+      wrong: 'Missed', hard: 'Hard', easy: 'Easy', due: 'to review', deck_all: 'All myths', print: 'Print infographic', gen_ai: 'Generate with AI', save: 'Save',
+      q_trigger: 'Trigger question', b_title: 'Process and symbolic synthesis', c_title: 'Analytical cognitive support', d_title: 'Interpretation flowchart', e_title: 'Key summary and references',
+      c1: 'Core manifestation', c2: 'Context and background', c3: 'Turning points and signs', c4: 'Instant reading key', key_points: 'Key points', glossary: 'Acronyms and terms', refs: 'References',
+      duel: 'Card Duel', quiz: 'Myth Quiz', store: 'Somnia Store', choose_attr: 'Choose an attribute from your card', you: 'You', cpu: 'Oracle', win: 'You won the round!', lose: 'The Oracle won the round.', tie: 'Tie!', next: 'Next', new_game: 'New game', score: 'Score', correct: 'Correct!', incorrect: 'Not this time.',
+      misterio: 'Mystery', coragem: 'Courage', fe: 'Faith', astucia: 'Cunning', assombro: 'Dread',
+      graph_help: 'Drag the nodes. Curators can drop a character onto a myth to link them.', notes: 'Notes for the day', notes_local: 'Notes stay in this browser only (nothing is sent to the server).', on_this_day: 'On this day', add_note: 'Add note',
+      login: 'Sign in', logout: 'Sign out', visitor: 'Visitor', ask: 'Ask Lume about the legends…', send: 'Send', mute: 'Mute', unmute: 'Unmute',
+      translating: 'Translating content…', tr_fail: 'Content translation unavailable: interface translated, texts kept in the original.', close_hint: 'Double-click the desktop background to close the active window.',
+      community_soon: 'Real-time chat and video calls arrive in the next iteration. Meanwhile, use the guilds and board in the Museum.', open_museum: 'Open the Museum', version: 'Version', loading: 'Loading…', none: 'Nothing found.', propose: 'Propose a new myth', sensitive: 'Sensitive topic'
+    },
+    es: {
+      lang: 'Español', app: 'Somnia', tagline: 'Mitos, leyendas y sueños de Santos', welcome: 'Bienvenido a Somnia', welcome_sub: 'Elige un portal para empezar a explorar las leyendas de la Baixada Santista.',
+      biblioteca: 'Biblioteca', personagens: 'Personajes', flashcards: 'Fichas', jogos: 'Juegos', grafo: 'Grafo', agenda: 'Agenda', museu: 'Museo 3D', comunidade: 'Comunidad', guia: 'Guía Lume', ajuda: 'Ayuda', sobre: 'Acerca de',
+      p_bib: 'Mitos en tarjetas ilustradas estilo cómic', p_chars: 'Cartas RPG de los personajes', p_games: 'Duelo de cartas, quiz y tienda',
+      search: 'Buscar mito, lugar o personaje…', all: 'Todos', sort_chrono: 'Cronológico', sort_az: 'A–Z', timeline: 'Línea de tiempo', grid: 'Tarjetas',
+      read_more: 'Leer la historia', back: 'Volver', sources: 'Fuentes', primary: 'primaria', secondary: 'secundaria', characters_linked: 'Personajes del mito', study: 'Estudiar ficha', see_graph: 'Ver en el grafo',
+      place: 'Lugar', era: 'Época', type: 'Tipo', rarity: 'Rareza', historic: 'Persona histórica', legend: 'Figura legendaria', collective: 'Colectivo', devotion: 'Devoción', chronicle: 'Crónica', uncertain: 'Incierto',
+      attrs: 'Atributos de juego', ability: 'Habilidad', myths: 'Mitos', flip: 'Girar', front: 'Anverso', backside: 'Reverso',
+      wrong: 'Fallé', hard: 'Difícil', easy: 'Fácil', due: 'para repasar', deck_all: 'Todos los mitos', print: 'Imprimir infografía', gen_ai: 'Generar con IA', save: 'Guardar',
+      q_trigger: 'Pregunta disparadora', b_title: 'Síntesis procesal y simbólica', c_title: 'Apoyo cognitivo analítico', d_title: 'Diagrama de interpretación', e_title: 'Resumen clave y referencias',
+      c1: 'Manifestación central', c2: 'Contexto y antecedentes', c3: 'Puntos de inflexión y señales', c4: 'Clave de lectura inmediata', key_points: 'Puntos clave', glossary: 'Siglas y términos', refs: 'Referencias bibliográficas',
+      duel: 'Duelo de Cartas', quiz: 'Quiz de Mitos', store: 'Tienda Somnia', choose_attr: 'Elige un atributo de tu carta', you: 'Tú', cpu: 'Oráculo', win: '¡Ganaste la ronda!', lose: 'El Oráculo ganó la ronda.', tie: '¡Empate!', next: 'Siguiente', new_game: 'Nuevo juego', score: 'Marcador', correct: '¡Correcto!', incorrect: 'Esta vez no.',
+      misterio: 'Misterio', coragem: 'Valor', fe: 'Fe', astucia: 'Astucia', assombro: 'Espanto',
+      graph_help: 'Arrastra los nodos. Los curadores pueden soltar un personaje sobre un mito para vincularlos.', notes: 'Notas del día', notes_local: 'Las notas quedan solo en este navegador (nada se envía al servidor).', on_this_day: 'En este día', add_note: 'Añadir nota',
+      login: 'Entrar', logout: 'Salir', visitor: 'Visitante', ask: 'Pregunta a Lume sobre las leyendas…', send: 'Enviar', mute: 'Silenciar', unmute: 'Activar sonido',
+      translating: 'Traduciendo contenido…', tr_fail: 'Traducción de contenido no disponible: interfaz traducida, textos en el original.', close_hint: 'Doble clic en el fondo del escritorio cierra la ventana activa.',
+      community_soon: 'El chat en tiempo real y las videollamadas llegan en la próxima iteración. Mientras tanto, usa los gremios y el mural del Museo.', open_museum: 'Abrir el Museo', version: 'Versión', loading: 'Cargando…', none: 'No se encontró nada.', propose: 'Proponer un mito', sensitive: 'Tema sensible'
+    },
+    zh: {
+      lang: '中文', app: 'Somnia', tagline: '桑托斯的神话、传说与梦境', welcome: '欢迎来到 Somnia', welcome_sub: '选择一个入口，开始探索桑托斯沿海的传说。',
+      biblioteca: '图书馆', personagens: '人物', flashcards: '记忆卡', jogos: '游戏', grafo: '关系图', agenda: '日历', museu: '3D 博物馆', comunidade: '社区', guia: '向导 Lume', ajuda: '帮助', sobre: '关于',
+      p_bib: '漫画风格的神话插图卡片', p_chars: '角色扮演人物卡', p_games: '卡牌对决、问答与商店',
+      search: '搜索神话、地点或人物…', all: '全部', sort_chrono: '按时间', sort_az: '按字母', timeline: '时间轴', grid: '卡片',
+      read_more: '阅读故事', back: '返回', sources: '资料来源', primary: '原始资料', secondary: '二手资料', characters_linked: '神话中的人物', study: '学习记忆卡', see_graph: '在关系图中查看',
+      place: '地点', era: '时期', type: '类型', rarity: '稀有度', historic: '历史人物', legend: '传说人物', collective: '群体', devotion: '信仰', chronicle: '编年史', uncertain: '不确定',
+      attrs: '游戏属性', ability: '技能', myths: '神话', flip: '翻转', front: '正面', backside: '背面',
+      wrong: '答错', hard: '困难', easy: '简单', due: '待复习', deck_all: '全部神话', print: '打印信息图', gen_ai: '用 AI 生成', save: '保存',
+      q_trigger: '触发问题', b_title: '过程与象征综述', c_title: '分析性认知支持', d_title: '解读流程图', e_title: '关键摘要与参考文献',
+      c1: '核心表现', c2: '背景与前因', c3: '转折点与征兆', c4: '即时解读要点', key_points: '要点', glossary: '缩写与术语', refs: '参考文献',
+      duel: '卡牌对决', quiz: '神话问答', store: 'Somnia 商店', choose_attr: '选择你卡牌的一项属性', you: '你', cpu: '神谕', win: '你赢了这一轮！', lose: '神谕赢了这一轮。', tie: '平局！', next: '下一轮', new_game: '新游戏', score: '比分', correct: '正确！', incorrect: '这次没答对。',
+      misterio: '神秘', coragem: '勇气', fe: '信仰', astucia: '机智', assombro: '惊惧',
+      graph_help: '拖动节点。策展人可以把人物拖到神话上建立关联。', notes: '当日笔记', notes_local: '笔记只保存在此浏览器中（不会发送到服务器）。', on_this_day: '历史上的今天', add_note: '添加笔记',
+      login: '登录', logout: '退出', visitor: '访客', ask: '向 Lume 询问传说…', send: '发送', mute: '静音', unmute: '开启声音',
+      translating: '正在翻译内容…', tr_fail: '内容翻译不可用：界面已翻译，正文保留原文。', close_hint: '双击桌面背景可关闭当前窗口。',
+      community_soon: '实时聊天和视频通话将在下一版本推出。在此之前，请使用博物馆中的公会和留言板。', open_museum: '打开博物馆', version: '版本', loading: '加载中…', none: '未找到内容。', propose: '提议新神话', sensitive: '敏感话题'
+    },
+    hi: {
+      lang: 'हिन्दी', app: 'Somnia', tagline: 'सांतोस के मिथक, किंवदंतियाँ और सपने', welcome: 'Somnia में आपका स्वागत है', welcome_sub: 'सांतोस तट की किंवदंतियों को जानने के लिए एक द्वार चुनें।',
+      biblioteca: 'पुस्तकालय', personagens: 'पात्र', flashcards: 'फ़्लैशकार्ड', jogos: 'खेल', grafo: 'ग्राफ़', agenda: 'कैलेंडर', museu: '3D संग्रहालय', comunidade: 'समुदाय', guia: 'मार्गदर्शक Lume', ajuda: 'सहायता', sobre: 'परिचय',
+      p_bib: 'कॉमिक शैली के चित्रित मिथक कार्ड', p_chars: 'पात्रों के RPG कार्ड', p_games: 'कार्ड द्वंद्व, क्विज़ और स्टोर',
+      search: 'मिथक, स्थान या पात्र खोजें…', all: 'सभी', sort_chrono: 'कालक्रम', sort_az: 'क–ज्ञ', timeline: 'समयरेखा', grid: 'कार्ड',
+      read_more: 'कहानी पढ़ें', back: 'वापस', sources: 'स्रोत', primary: 'प्राथमिक', secondary: 'द्वितीयक', characters_linked: 'इस मिथक के पात्र', study: 'फ़्लैशकार्ड पढ़ें', see_graph: 'ग्राफ़ में देखें',
+      place: 'स्थान', era: 'काल', type: 'प्रकार', rarity: 'दुर्लभता', historic: 'ऐतिहासिक व्यक्ति', legend: 'पौराणिक पात्र', collective: 'सामूहिक', devotion: 'भक्ति', chronicle: 'इतिवृत्त', uncertain: 'अनिश्चित',
+      attrs: 'खेल गुण', ability: 'क्षमता', myths: 'मिथक', flip: 'पलटें', front: 'आगे', backside: 'पीछे',
+      wrong: 'गलत', hard: 'कठिन', easy: 'आसान', due: 'दोहराने हेतु', deck_all: 'सभी मिथक', print: 'इन्फ़ोग्राफ़िक छापें', gen_ai: 'AI से बनाएँ', save: 'सहेजें',
+      q_trigger: 'प्रेरक प्रश्न', b_title: 'प्रक्रियात्मक और प्रतीकात्मक सार', c_title: 'विश्लेषणात्मक संज्ञानात्मक सहायता', d_title: 'व्याख्या प्रवाह-चित्र', e_title: 'मुख्य सार और संदर्भ',
+      c1: 'मुख्य अभिव्यक्ति', c2: 'संदर्भ और पृष्ठभूमि', c3: 'मोड़ और संकेत', c4: 'त्वरित पठन कुंजी', key_points: 'मुख्य बिंदु', glossary: 'संक्षिप्ताक्षर और शब्द', refs: 'संदर्भ ग्रंथ',
+      duel: 'कार्ड द्वंद्व', quiz: 'मिथक क्विज़', store: 'Somnia स्टोर', choose_attr: 'अपने कार्ड का एक गुण चुनें', you: 'आप', cpu: 'देववाणी', win: 'आपने यह दौर जीता!', lose: 'देववाणी ने यह दौर जीता।', tie: 'बराबरी!', next: 'अगला', new_game: 'नया खेल', score: 'स्कोर', correct: 'सही!', incorrect: 'इस बार नहीं।',
+      misterio: 'रहस्य', coragem: 'साहस', fe: 'आस्था', astucia: 'चतुराई', assombro: 'भय',
+      graph_help: 'नोड खींचें। क्यूरेटर किसी पात्र को मिथक पर छोड़कर जोड़ सकते हैं।', notes: 'दिन के नोट्स', notes_local: 'नोट्स केवल इसी ब्राउज़र में रहते हैं (सर्वर पर कुछ नहीं भेजा जाता)।', on_this_day: 'आज के दिन', add_note: 'नोट जोड़ें',
+      login: 'प्रवेश', logout: 'बाहर निकलें', visitor: 'आगंतुक', ask: 'Lume से किंवदंतियों के बारे में पूछें…', send: 'भेजें', mute: 'मौन', unmute: 'ध्वनि चालू',
+      translating: 'सामग्री का अनुवाद हो रहा है…', tr_fail: 'सामग्री अनुवाद उपलब्ध नहीं: इंटरफ़ेस अनूदित, पाठ मूल भाषा में।', close_hint: 'डेस्कटॉप पृष्ठभूमि पर डबल-क्लिक करने से सक्रिय विंडो बंद होती है।',
+      community_soon: 'रीयल-टाइम चैट और वीडियो कॉल अगले संस्करण में आएँगे। तब तक संग्रहालय के गिल्ड और सूचना-पट का उपयोग करें।', open_museum: 'संग्रहालय खोलें', version: 'संस्करण', loading: 'लोड हो रहा है…', none: 'कुछ नहीं मिला।', propose: 'नया मिथक प्रस्तावित करें', sensitive: 'संवेदनशील विषय'
+    }
+  };
+  window.I18N = { D, LANGS: ['zh', 'es', 'en', 'hi', 'pt'] };
+})();

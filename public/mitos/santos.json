@@ -1,0 +1,788 @@
+{
+  "format": "somnia-mitos",
+  "version": 1,
+  "colecao": "Lendas de Santos e da Baixada Santista",
+  "aviso": "Conteúdo de referência resumido com palavras próprias a partir das fontes listadas. Lendas são tradição oral: datas e nomes variam entre versões e estão indicados como tal. Revise antes de usos acadêmicos.",
+  "fontes": {
+    "nm": {"t": "NOVO MILÊNIO. Histórias e Lendas de Santos (índice geral e série de lendas). Santos, 1999–.", "url": "https://www.novomilenio.inf.br/santos/lendas.htm", "tipo": "secundaria", "nota": "Site de referência indicado pelo projeto. A página lendasnm.htm bloqueia leitura automatizada; conferir manualmente."},
+    "pms": {"t": "PREFEITURA DE SANTOS. Dia do Folclore: relembre as lendas que fazem parte da história dos santistas. 22 ago. 2022 (fonte citada: José Dionísio de Almeida, Fundação Arquivo e Memória de Santos).", "url": "https://www.santos.sp.gov.br/?q=noticia%2Fdia-do-folclore-relembre-as-lendas-que-fazem-parte-da-historia-dos-santistas", "tipo": "secundaria"},
+    "memoria": {"t": "VAIO, Ronaldo (texto); DACOSTA, Osvaldo (arte). Os históricos contos fantasmagóricos santistas. Memória Santista / Almanaque de Santos (org. Sergio Willians).", "url": "https://memoriasantista.com.br/os-historicos-contos-fantasmagoricos-santistas/", "tipo": "secundaria"},
+    "delpasso": {"t": "DEL PASSO, Diego. Lendas antigas de Santos. Blog do professor, 2 dez. 2024.", "url": "https://professordiegodelpasso.blog/2024/12/02/lendas-de-santos/", "tipo": "secundaria"},
+    "juicy": {"t": "JUICY SANTOS. Entre lendas e memórias: 4 histórias do folclore de Santos.", "url": "https://www.juicysantos.com.br/novo-na-regiao/entre-lendas-e-memorias-4-historias-do-folclore-de-santos/", "tipo": "secundaria"},
+    "revusp": {"t": "A lenda no litoral paulista. Revista de História (USP).", "url": "https://revistas.usp.br/revhistoria/article/download/34898/37634/40940", "tipo": "secundaria", "nota": "Classifica as lendas do litoral em: milagre, castigo, culto, fé, mistério e amor."},
+    "gandavo": {"t": "GÂNDAVO, Pero de Magalhães. História da Província Santa Cruz, a que vulgarmente chamamos Brasil. Lisboa: Antônio Gonçalves, 1576.", "url": "", "tipo": "primaria"},
+    "dl_ipupiara": {"t": "DIÁRIO DO LITORAL. Relembre a lenda de Ipupiara, o monstro que aterrorizou a Vila de São Vicente.", "url": "https://www.diariodolitoral.com.br/sao-vicente/relembre-a-lenda-de-ipupiara-o-monstro-que-aterrorizou-a-vila-de-sao/", "tipo": "secundaria"},
+    "spilbergen": {"t": "SPILBERGEN, Joris van. Oost ende West-Indische Spiegel (relato da viagem de 1614–1617, com gravura de São Vicente e Santos). Leiden, 1619.", "url": "https://portal.unisantos.br/fortaleza/english/pg07.html", "tipo": "primaria"},
+    "dl_monte": {"t": "DIÁRIO DO LITORAL. Morro de Santos guarda milagre atribuído à padroeira (tradição de 1614 × registro holandês de 1615).", "url": "https://www.diariodolitoral.com.br/santos/morro-de-santos-guarda-milagre-atribuido-a-padroeira-e-surpreende-com-mais-de-400-degraus-e-bondinho-de-99-anos/", "tipo": "secundaria"},
+    "cascudo": {"t": "CASCUDO, Luís da Câmara. Dicionário do Folclore Brasileiro. Rio de Janeiro: INL, 1954 (verbetes Lobisomem e Bruxa).", "url": "", "tipo": "secundaria"},
+    "fgaspar": {"t": "MADRE DE DEUS, Frei Gaspar da. Memórias para a história da Capitania de São Vicente. Lisboa: Academia Real das Ciências, 1797.", "url": "", "tipo": "primaria"},
+    "folheto1821": {"t": "SILVA, José Carvalho da. Santos 1º de Agosto de 1821. Quanto mais se vive mais se vê... Rio de Janeiro: Typographia Nacional, 1821 (folheto sobre o motim e o enforcamento de Chaguinhas; acervo BBM-USP).", "url": "https://digital.bbm.usp.br/handle/bbm/1548?locale=en", "tipo": "primaria"},
+    "chag_ihgsp": {"t": "GAZETA SP. Culto a santo negro da Liberdade pode virar patrimônio imaterial de SP (relatos registrados pelo IHGSP).", "url": "https://www.gazetasp.com.br/estado/culto-a-santo-negro-da-liberdade-pode-virar-patrimonio-imaterial-de-sp/", "tipo": "secundaria"}
+  },
+  "mitos": [
+    {
+      "id": "fantasma-paqueta",
+      "titulo": "O Fantasma do Paquetá",
+      "subtitulo": "A mulher de véu que chorava no portão do cemitério",
+      "local": "Cemitério do Paquetá, Rua Dr. Cóchrane",
+      "municipio": "Santos",
+      "epoca": "Fim do séc. XIX – 1900",
+      "ano": 1900,
+      "tipo": "assombração",
+      "motivo": "cemiterio",
+      "raridade": "Lendária",
+      "resumo": "Por volta de 1900, uma figura de véu surgia perto da meia-noite no portão do Cemitério do Paquetá, acenava com um lenço e chorava. Em julho de 1900 a polícia e uma multidão esperaram o fantasma, que não apareceu, e a noite terminou em tumulto. Versões posteriores identificam a 'assombração' como uma mulher real enlutada.",
+      "historia": "A tradição conta que uma mulher de vestido escuro (ou branco), com o rosto coberto por um véu, caminhava da Rua São Francisco até o portão do cemitério, acenava com um lenço para dentro e enxugava as lágrimas antes de seguir rumo à Rua Bittencourt. As queixas dos moradores levaram a polícia a montar guarda na noite de 27 de julho de 1900. O fantasma não veio, a multidão se exaltou, alguns tentaram escalar os muros e a polícia dispersou o povo. Segundo o historiador Francisco Vazquez Carballa, citado pela Memória Santista, a figura seria Maria M., moça de família tradicional que teve um filho com um clérigo da Matriz Velha; a criança morreu ainda bebê e foi enterrada discretamente no Paquetá, e a mãe passava ali todas as noites para chorar. Ela teria adoecido e morrido em agosto de 1900. Outra versão a chama de 'a Maracajá' e menciona um jazigo dessa família encontrado no cemitério em 2007.",
+      "personagens": ["maria-maracaja"],
+      "tags": ["fantasma", "luto", "cemitério", "1900", "imprensa"],
+      "fontes": ["pms", "memoria", "delpasso", "nm"],
+      "datas": [{"d": "1900-07-27", "t": "Noite em que polícia e multidão esperaram o Fantasma do Paquetá"}],
+      "flashcard": {
+        "pergunta": "Por que o 'fantasma' do Paquetá não apareceu na noite em que a cidade inteira o esperava?",
+        "b": {
+          "etapas": [
+            {"t": "Antecedentes", "d": "Romance proibido com clérigo; morte do bebê em uma Santos marcada por epidemias.", "ic": "vela"},
+            {"t": "Limiar", "d": "Visitas noturnas ao portão: véu, lenço e choro à meia-noite.", "ic": "lua"},
+            {"t": "Ruptura", "d": "27/7/1900: polícia e multidão aguardam; nada aparece; tumulto.", "ic": "ampulheta"},
+            {"t": "Legado", "d": "A mãe enlutada vira 'alma penada' e a lenda mais famosa da cidade.", "ic": "pergaminho"}
+          ],
+          "critico": "Ponto crítico: a mulher estaria doente naquela noite — o 'fantasma' era uma pessoa viva."
+        },
+        "c": {
+          "manifestacao": "Figura velada que acena e chora no portão do cemitério, sempre à meia-noite.",
+          "contexto": "Santos da virada do século XIX para o XX: moral católica rígida, alta mortalidade infantil, imprensa popular.",
+          "inflexao": "A espera policial de 1900 transforma o boato em evento público registrado pelos jornais.",
+          "chave": "Luto interditado pela norma social → visto pela cidade como assombração."
+        },
+        "d": {
+          "entrada": "Relato do Fantasma do Paquetá",
+          "literal": {"rotulo": "Leitura literal / registro", "itens": ["Notícia de jornal sobre a noite de 1900", "Identificação de Maria M. (Carballa)", "Jazigo da família Maracajá (2007)"]},
+          "simbolica": {"rotulo": "Leitura simbólica / mítica", "itens": ["Arquétipo da mãe que chora o filho morto", "Véu e lenço: luto ritual e segredo", "Meia-noite: limiar entre mundos"]},
+          "cruzamento": "Paralelo comparativo: La Llorona (tradição hispano-americana) e as 'damas de branco' europeias."
+        },
+        "e": {
+          "pontos": ["Data-âncora: 27 de julho de 1900.", "Aparição associada ao luto de uma mãe, não a um crime.", "A lenda nasce do choque entre moral social e dor privada.", "Versões divergem no nome (Maria M. / 'a Maracajá') e na roupa (preta ou branca)."],
+          "glossario": [["séc.", "século"], ["Matriz Velha", "antiga igreja matriz de Santos"], ["Fams", "Fundação Arquivo e Memória de Santos"]]
+        }
+      }
+    },
+    {
+      "id": "pedra-feiticeira",
+      "titulo": "A Pedra da Feiticeira",
+      "subtitulo": "A velha que dançava ao redor do fogo no sopé do Monte Serrat",
+      "local": "Fonte das Duas Pedras, sopé do Monte Serrat",
+      "municipio": "Santos",
+      "epoca": "c. 1810 – c. 1850",
+      "ano": 1850,
+      "tipo": "assombração",
+      "motivo": "pedra",
+      "raridade": "Épica",
+      "resumo": "Por volta de 1850, viajantes contavam ter visto uma velha desgrenhada dançando e gritando ao redor de uma fogueira sobre uma grande rocha. Temida como bruxa, ela se revelou a mãe que havia abandonado os filhos décadas antes. Reconciliou-se com o filho Antoninho no leito de morte dele, e foi encontrada morta junto à sua gruta poucos dias depois.",
+      "historia": "Perto da Fonte das Duas Pedras, no sopé do Monte Serrat, uma pequena gruta servia de abrigo a uma mulher idosa que o povo chamava de feiticeira. A narrativa recua até cerca de 1810, quando Santos ainda era vila: uma viúva de família respeitada deixou os dois filhos pequenos para seguir um militar. As crianças foram criadas por parentes, sob o peso da vergonha. O menino, Antônio, tornou-se despachante da Alfândega, morava na Rua São Francisco e era conhecido pela generosidade com os pobres. Gravemente doente por volta de 1850, recebeu a visita de dona Angelina, dona da chácara vizinha à pedra, que levou a 'bruxa' até sua cabeceira e revelou quem ela era. Mãe e filho se abraçaram; Antoninho morreu naquela mesma noite, e o corpo da mulher foi achado dias depois, recostado a uma árvore perto da gruta.",
+      "personagens": ["velha-feiticeira", "antoninho", "dona-angelina"],
+      "tags": ["bruxa", "culpa", "reconciliação", "Monte Serrat"],
+      "fontes": ["memoria", "delpasso", "juicy", "cascudo"],
+      "datas": [],
+      "flashcard": {
+        "pergunta": "Quem era, de fato, a 'feiticeira' da pedra — e o que a narrativa troca: medo por quê?",
+        "b": {
+          "etapas": [
+            {"t": "Antecedentes", "d": "c. 1810: viúva abandona dois filhos para seguir um militar.", "ic": "ampulheta"},
+            {"t": "Limiar", "d": "c. 1850: velha dança e grita ao redor do fogo sobre a pedra.", "ic": "fogo"},
+            {"t": "Transformação", "d": "Dona Angelina leva a 'bruxa' ao leito do filho doente: reconhecimento.", "ic": "chave"},
+            {"t": "Legado", "d": "Mãe e filho morrem quase juntos; a rocha guarda o nome.", "ic": "pergaminho"}
+          ],
+          "critico": "Ponto crítico: o reconhecimento (anagnórise) converte a figura temida em mãe arrependida."
+        },
+        "c": {
+          "manifestacao": "Velha desgrenhada, fogo noturno, palavras ininteligíveis: o estereótipo da bruxa.",
+          "contexto": "Santos de vila a cidade (elevada a cidade em 1839); honra familiar e exclusão social.",
+          "inflexao": "A doença de Antoninho e a mediação de dona Angelina.",
+          "chave": "A 'bruxa' é a culpa materna que vive à margem — e volta para pedir perdão."
+        },
+        "d": {
+          "entrada": "Relato da Pedra da Feiticeira",
+          "literal": {"rotulo": "Leitura literal / topografia", "itens": ["Fonte das Duas Pedras e chácara vizinha", "Ruas da época (Rua São Francisco, Rua da Matriz)", "Alfândega: ofício de Antoninho"]},
+          "simbolica": {"rotulo": "Leitura simbólica", "itens": ["Fogo: penitência e purificação", "Gruta/pedra: exílio, margem da cidade", "Perdão no limiar da morte"]},
+          "cruzamento": "Motivo folclórico da bruxa (Câmara Cascudo) × narrativa moral de reconciliação."
+        },
+        "e": {
+          "pontos": ["Lugar: sopé do Monte Serrat, perto da Fonte das Duas Pedras.", "Arco temporal de quatro décadas (c. 1810 → c. 1850).", "A lenda desmonta o medo: o 'monstro' tem história.", "Antoninho morre aos 52 anos, segundo a versão da Memória Santista."],
+          "glossario": [["c.", "cerca de (circa)"], ["despachante", "agente que trata de cargas e tributos na Alfândega"], ["anagnórise", "reconhecimento de identidade que muda o rumo da narrativa"]]
+        }
+      }
+    },
+    {
+      "id": "vulcao-macuco",
+      "titulo": "O Vulcão do Macuco",
+      "subtitulo": "Lama, fumaça e chamas de dez metros no meio da cidade",
+      "local": "Bairro do Macuco",
+      "municipio": "Santos",
+      "epoca": "Dez. 1896 – jan. 1897",
+      "ano": 1896,
+      "tipo": "fenômeno",
+      "motivo": "vulcao",
+      "raridade": "Rara",
+      "resumo": "Durante obras no Macuco, em 1896, uma cratera passou a lançar água escura, pedras, fumaça e chamas amareladas com mais de dez metros, visíveis de outros bairros. Houve medo de fim do mundo, romarias de curiosos, rezas e até vendedores de comida. O fenômeno cessou em cerca de um mês; as explicações científicas divergem entre gás metano e pressão de gás num poço perfurado.",
+      "historia": "Em fins de 1896, uma escavação no bairro do Macuco começou a expelir lama, pedras e fogo com estrondo semelhante a um apito. A notícia correu a Serra e atraiu visitantes da capital; uns rezavam, outros zombavam, e ambulantes vendiam lanches e bebidas aos espectadores. Para o historiador José Dionísio de Almeida (Fams), citado pela Prefeitura, o lixo depositado no terreno produziu gás metano, inflamável — um processo desconhecido pela população. Outra versão, divulgada por Diego Del Passo, atribui a explicação ao geólogo Orville Derby: um poço artesiano atingido por sonda teria liberado gás sob pressão. As erupções terminaram em janeiro de 1897, e o caso ficou como lenda urbana do 'vulcão' santista.",
+      "personagens": ["orville-derby", "romeiros-macuco"],
+      "tags": ["fenômeno natural", "ciência", "fim do mundo", "1896"],
+      "fontes": ["pms", "delpasso", "nm"],
+      "datas": [{"d": "1896-12-29", "t": "Início do 'Vulcão do Macuco' (data segundo Del Passo)"}],
+      "flashcard": {
+        "pergunta": "Que fenômeno natural está por trás do 'vulcão' — e por que a ciência não apagou a lenda?",
+        "b": {
+          "etapas": [
+            {"t": "Condições", "d": "Obras de saneamento e aterro com lixo no Macuco.", "ic": "bussola"},
+            {"t": "Evento", "d": "Cratera lança lama, pedras e chamas de 10+ metros.", "ic": "fogo"},
+            {"t": "Desdobramento", "d": "Pânico, romaria, comércio ambulante, turismo da capital.", "ic": "ampulheta"},
+            {"t": "Legado", "d": "Explicação por gás; o 'vulcão' entra no folclore urbano.", "ic": "pergaminho"}
+          ],
+          "critico": "Ponto crítico: divergência explicativa — metano do lixo (Fams) × gás de poço artesiano (versão Derby)."
+        },
+        "c": {
+          "manifestacao": "Erupção de lama, fogo e fumaça com estrondo, durante cerca de um mês.",
+          "contexto": "Santos em reforma sanitária no fim do séc. XIX; ciência ainda pouco difundida.",
+          "inflexao": "Interpretação apocalíptica × explicação geológica/química.",
+          "chave": "Quando a técnica é invisível, o fenômeno vira sinal sobrenatural."
+        },
+        "d": {
+          "entrada": "Registro do Vulcão do Macuco",
+          "literal": {"rotulo": "Leitura literal / científica", "itens": ["Gás metano de matéria orgânica (José Dionísio de Almeida)", "Gás sob pressão em poço perfurado (versão atribuída a Orville Derby)", "Duração: dez. 1896 – jan. 1897"]},
+          "simbolica": {"rotulo": "Leitura simbólica", "itens": ["Fogo da terra: sinal do fim dos tempos", "Cidade moderna que 'abre a terra' e é respondida", "Espetáculo coletivo e festa popular"]},
+          "cruzamento": "Comparar com outros 'milagres' explicados (As vozes das bicas) e com relatos de fogos-fátuos."
+        },
+        "e": {
+          "pontos": ["Fenômeno real, interpretação lendária.", "Chamas visíveis da Vila Nova.", "Duas explicações científicas em circulação: indicar ambas.", "Mostra a lenda como forma de entender o desconhecido."],
+          "glossario": [["Fams", "Fundação Arquivo e Memória de Santos"], ["metano", "gás inflamável (CH₄) produzido pela decomposição de matéria orgânica"], ["poço artesiano", "poço em que a água sobe por pressão natural"]]
+        }
+      }
+    },
+    {
+      "id": "monte-serrat",
+      "titulo": "O Milagre de Monte Serrat",
+      "subtitulo": "O desabamento que deteve os invasores",
+      "local": "Monte Serrat (Morro de São Jerônimo)",
+      "municipio": "Santos",
+      "epoca": "1614/1615 (tradição) — versões citam 1591",
+      "ano": 1615,
+      "tipo": "milagre",
+      "motivo": "navio",
+      "raridade": "Lendária",
+      "resumo": "Diante de um ataque vindo do mar, os moradores de Santos se refugiaram no alto do Monte Serrat, junto à capela de Nossa Senhora. Quando os invasores subiam a encosta, um desabamento de terra e pedras os teria detido, e o povo atribuiu a salvação à santa, que se tornou padroeira da cidade (festa em 8 de setembro).",
+      "historia": "A capela de Nossa Senhora do Monte Serrat foi erguida no início do séc. XVII por ordem do governador-geral D. Francisco de Sousa. A tradição religiosa santista situa a invasão em 1614, enquanto o relato de viagem do holandês Joris van Spilbergen registra a esquadra diante de Santos e São Vicente em janeiro de 1615, encontrando resistência. Outras versões populares atribuem o episódio ao corsário inglês Thomas Cavendish, que saqueou Santos em 1591. Em todas, mulheres e crianças sobem o morro, rezam junto à imagem, e a encosta desaba sobre os atacantes. O milagre consolidou o culto: Nossa Senhora do Monte Serrat é a padroeira de Santos e sua festa reúne procissões até o santuário.",
+      "personagens": ["ns-monte-serrat", "joris-spilbergen", "thomas-cavendish"],
+      "tags": ["milagre", "piratas", "padroeira", "séc. XVII"],
+      "fontes": ["spilbergen", "dl_monte", "delpasso", "revusp", "nm"],
+      "datas": [{"d": "1615-01-01", "t": "Esquadra de Spilbergen diante de Santos (janeiro de 1615)"}, {"d": "2026-09-08", "t": "Festa de Nossa Senhora do Monte Serrat, padroeira de Santos (anual)"}],
+      "flashcard": {
+        "pergunta": "Quem eram os invasores do milagre de Monte Serrat — e por que as versões discordam?",
+        "b": {
+          "etapas": [
+            {"t": "Antecedentes", "d": "Vila exposta a corsários; capela no alto do morro.", "ic": "bussola"},
+            {"t": "Ruptura", "d": "Esquadra estrangeira ataca; povo foge para o Monte Serrat.", "ic": "ampulheta"},
+            {"t": "Limiar", "d": "Prece coletiva; a encosta desaba sobre os invasores.", "ic": "lua"},
+            {"t": "Legado", "d": "Padroeira de Santos; festa em 8 de setembro.", "ic": "pergaminho"}
+          ],
+          "critico": "Ponto crítico: tradição (1614) × fonte holandesa (jan. 1615) × versão Cavendish (1591)."
+        },
+        "c": {
+          "manifestacao": "Desabamento de terra e pedras que detém os atacantes.",
+          "contexto": "Litoral paulista nos séc. XVI–XVII, alvo de corsários ingleses e holandeses.",
+          "inflexao": "O deslizamento lido como intervenção divina funda um culto cívico-religioso.",
+          "chave": "Montanha + prece + desabamento = cidade protegida pela padroeira."
+        },
+        "d": {
+          "entrada": "Narrativa do milagre",
+          "literal": {"rotulo": "Leitura literal / documental", "itens": ["Relato e gravura de Spilbergen (1619)", "Ataque de Cavendish (1591)", "Fundação da capela por D. Francisco de Sousa"]},
+          "simbolica": {"rotulo": "Leitura simbólica / mítica", "itens": ["Montanha sagrada como refúgio", "Natureza obedece ao sagrado", "Mito de fundação da identidade santista"]},
+          "cruzamento": "Comparar com a Virgem de Montserrat (Catalunha) e com a Lenda do Milagre na classificação da Revista de História (USP)."
+        },
+        "e": {
+          "pontos": ["Santa: Nossa Senhora do Monte Serrat, padroeira de Santos.", "Festa: 8 de setembro.", "Datas divergem: indicar a fonte de cada uma.", "Milagre = lenda de fundação e de pertencimento."],
+          "glossario": [["séc.", "século"], ["corsário", "navegador autorizado por um Estado a atacar navios e portos inimigos"], ["D.", "Dom"]]
+        }
+      }
+    },
+    {
+      "id": "fonte-itororo",
+      "titulo": "A Fonte do Itororó",
+      "subtitulo": "Quem bebe, nunca mais deixa Santos",
+      "local": "Sopé do Monte Serrat, início do Caminho Monsenhor Moreira",
+      "municipio": "Santos",
+      "epoca": "Tradição oral (sem data)",
+      "ano": 1900,
+      "tipo": "encantamento",
+      "motivo": "fonte",
+      "raridade": "Comum",
+      "resumo": "Diz a tradição que quem bebe da água da Fonte do Itororó nunca mais vai embora de Santos. A fonte fica no sopé do Monte Serrat, junto ao início do Caminho Monsenhor Moreira, e a água que nasce do morro já abasteceu as casas da vizinhança.",
+      "historia": "A Fonte do Itororó canaliza a água que brota naturalmente do Monte Serrat; a Prefeitura instalou uma pequena bica no local, e antigamente os moradores usavam essa água no dia a dia. Ao lado começa o Caminho Monsenhor Moreira, com centenas de degraus até o santuário. A crença de que a água 'prende' o visitante à cidade é uma das lendas mais repetidas por santistas e turistas e liga a fonte à geografia sagrada do morro.",
+      "personagens": [],
+      "tags": ["água", "encantamento", "pertencimento", "Monte Serrat"],
+      "fontes": ["pms", "juicy", "nm"],
+      "datas": [],
+      "flashcard": {
+        "pergunta": "Que promessa a Fonte do Itororó faz a quem bebe sua água?",
+        "b": {
+          "etapas": [
+            {"t": "Condições", "d": "Nascente natural no Monte Serrat.", "ic": "gota"},
+            {"t": "Limiar", "d": "O visitante bebe da bica.", "ic": "chave"},
+            {"t": "Transformação", "d": "A água 'prende' quem bebeu à cidade.", "ic": "lua"},
+            {"t": "Legado", "d": "Ritual turístico e afetivo de pertencimento.", "ic": "pergaminho"}
+          ],
+          "critico": "Ponto crítico: a lenda transforma infraestrutura cotidiana (uma bica) em rito de passagem."
+        },
+        "c": {
+          "manifestacao": "Encantamento: quem bebe não consegue mais partir.",
+          "contexto": "Morro que concentra o sagrado da cidade (santuário, milagre, fontes).",
+          "inflexao": "Da água de uso doméstico ao gesto simbólico do visitante.",
+          "chave": "Beber = criar raiz."
+        },
+        "d": {
+          "entrada": "Crença da Fonte do Itororó",
+          "literal": {"rotulo": "Leitura literal", "itens": ["Nascente canalizada pela Prefeitura", "Uso doméstico histórico da água", "Acesso pelo Caminho Monsenhor Moreira"]},
+          "simbolica": {"rotulo": "Leitura simbólica", "itens": ["Água como vínculo e memória", "Fonte no pé da montanha sagrada", "Rito de entrada na comunidade"]},
+          "cruzamento": "Paralelo com o costume de jogar moedas em fontes para garantir o retorno (ex.: Fontana di Trevi, Roma)."
+        },
+        "e": {
+          "pontos": ["Local: sopé do Monte Serrat.", "Crença: quem bebe nunca deixa Santos.", "Lenda sem data: tradição oral.", "Liga água, morro e identidade."],
+          "glossario": [["bica", "pequena calha por onde escorre a água de uma fonte"]]
+        }
+      }
+    },
+    {
+      "id": "ipupiara",
+      "titulo": "O Ipupiara de São Vicente",
+      "subtitulo": "O 'homem marinho' de 1564",
+      "local": "Praia da Vila de São Vicente",
+      "municipio": "São Vicente",
+      "epoca": "1564",
+      "ano": 1564,
+      "tipo": "criatura",
+      "motivo": "monstro",
+      "raridade": "Lendária",
+      "resumo": "Em 1564, na Vila de São Vicente, uma criatura saída do mar teria aterrorizado a praia à noite e foi enfrentada e morta por Baltasar Ferreira, filho do capitão da vila. O caso foi registrado pelo cronista Pero de Magalhães Gândavo em 1576 e descrito como um monstro peludo, de focinho com bigodes e grande porte. Hoje há um monumento ao Ipupiara em São Vicente.",
+      "historia": "Gândavo narra que uma mulher avistou de madrugada um vulto estranho na areia e avisou Baltasar Ferreira, que saiu armado e enfrentou a criatura até matá-la. As descrições modernas, derivadas do relato e da gravura que o acompanha, falam em cerca de 3,5 metros, corpo coberto de pelos, braços longos, focinho com bigodes e pés como barbatanas. O nome, de origem tupi, é comumente traduzido como 'o que vive na água'. Historiadores discutem se o registro descreve um animal marinho real mal compreendido (como um leão-marinho ou foca) ou uma construção do imaginário europeu dos 'monstros do Novo Mundo'. É um dos raros mitos da região com fonte primária do séc. XVI.",
+      "personagens": ["ipupiara-criatura", "baltasar-ferreira"],
+      "tags": ["criatura marinha", "crônica colonial", "1564", "fonte primária"],
+      "fontes": ["gandavo", "dl_ipupiara", "nm"],
+      "datas": [],
+      "flashcard": {
+        "pergunta": "Qual é a fonte primária do Ipupiara e o que ela permite (e não permite) afirmar?",
+        "b": {
+          "etapas": [
+            {"t": "Antecedentes", "d": "São Vicente, primeira vila (1532), voltada ao mar.", "ic": "bussola"},
+            {"t": "Limiar", "d": "Madrugada: vulto na praia avistado por uma mulher.", "ic": "lua"},
+            {"t": "Ruptura", "d": "Baltasar Ferreira enfrenta e mata a criatura.", "ic": "espada"},
+            {"t": "Legado", "d": "Registro de Gândavo (1576); monumento em São Vicente.", "ic": "pergaminho"}
+          ],
+          "critico": "Ponto crítico: é um relato de cronista, com gravura — não um espécime preservado."
+        },
+        "c": {
+          "manifestacao": "Monstro peludo saído do mar, de focinho com bigodes, que é morto na praia.",
+          "contexto": "Brasil quinhentista; crônicas portuguesas descrevendo fauna e 'maravilhas' do Novo Mundo.",
+          "inflexao": "Publicação em 1576 leva o caso à Europa letrada.",
+          "chave": "Monstro do mar documentado = fronteira entre zoologia e imaginário."
+        },
+        "d": {
+          "entrada": "Relato do Ipupiara (Gândavo, 1576)",
+          "literal": {"rotulo": "Leitura literal / zoológica", "itens": ["Possível pinípede (leão-marinho, foca) fora do habitat", "Gravura do livro como evidência iconográfica", "Personagens nomeados: Baltasar Ferreira"]},
+          "simbolica": {"rotulo": "Leitura simbólica / mítica", "itens": ["Monstro marinho como medo do mar desconhecido", "Herói colonial que vence a fera", "Termo tupi apropriado pela crônica europeia"]},
+          "cruzamento": "Cruzar com sereias, tritões e 'homens marinhos' da cartografia e dos bestiários europeus."
+        },
+        "e": {
+          "pontos": ["Ano: 1564; publicação: 1576.", "Cronista: Pero de Magalhães Gândavo.", "Herói: Baltasar Ferreira.", "Hipóteses: animal real mal identificado × construção do imaginário."],
+          "glossario": [["tupi", "família de línguas indígenas do litoral brasileiro"], ["pinípede", "mamífero marinho com nadadeiras (focas, leões-marinhos)"], ["séc.", "século"]]
+        }
+      }
+    },
+    {
+      "id": "lobisomem-penha",
+      "titulo": "O Lobisomem do Morro da Penha",
+      "subtitulo": "Uivos nas noites de lua cheia no Caminho do Mirante",
+      "local": "Caminho do Mirante, Morro da Penha",
+      "municipio": "Santos",
+      "epoca": "Década de 1940",
+      "ano": 1945,
+      "tipo": "criatura",
+      "motivo": "lobo",
+      "raridade": "Épica",
+      "resumo": "Nos anos 1940, uma família com sete filhos homens morava perto dos reservatórios do Morro da Penha. Nas noites de lua cheia, os vizinhos ouviam portas batendo, panelas caindo, gemidos e um uivo longo. Até que a família sumiu numa noite, e o bairro concluiu que o sétimo filho carregava a sina do lobisomem.",
+      "historia": "Uma casa no Caminho do Mirante, vizinha aos reservatórios de água da companhia The City of Santos Improvements, abrigava um casal e sete filhos. A família se isolava e, nas semanas de lua cheia, os ruídos aumentavam até virar choro e gemidos de madrugada. Um dia, tudo silenciou: cortinas fechadas e, depois de uma semana, a constatação de que a casa fora abandonada à noite. A explicação veio da crença popular de que, numa família de sete filhos, o sétimo é amaldiçoado (o menino vira lobisomem; a menina, bruxa). Para o historiador José Dionísio de Almeida, a lenda reflete os medos da época e a origem migrante e imigrante da população, que trouxe suas crenças para os morros.",
+      "personagens": ["setimo-filho"],
+      "tags": ["lobisomem", "lua cheia", "migração", "anos 1940"],
+      "fontes": ["pms", "memoria", "cascudo"],
+      "datas": [],
+      "flashcard": {
+        "pergunta": "Que crença popular 'explica' o lobisomem da Penha, e o que ela revela sobre a população dos morros?",
+        "b": {
+          "etapas": [
+            {"t": "Condições", "d": "Família de sete filhos, isolada, no Caminho do Mirante.", "ic": "casa"},
+            {"t": "Limiar", "d": "Lua cheia: portas, panelas, gemidos e uivo.", "ic": "lua"},
+            {"t": "Ruptura", "d": "Silêncio súbito; a casa amanhece abandonada.", "ic": "ampulheta"},
+            {"t": "Legado", "d": "A sina do sétimo filho vira explicação do bairro.", "ic": "pergaminho"}
+          ],
+          "critico": "Ponto crítico: ninguém vê a transformação — a lenda se constrói por sons e ausência."
+        },
+        "c": {
+          "manifestacao": "Ruídos e uivos noturnos ligados ao ciclo lunar.",
+          "contexto": "Santos dos anos 1940; morros ocupados por migrantes e imigrantes.",
+          "inflexao": "O desaparecimento da família fecha a narrativa sem prova.",
+          "chave": "Sétimo filho + lua cheia = lobisomem (crença ibero-brasileira)."
+        },
+        "d": {
+          "entrada": "Relato do lobisomem da Penha",
+          "literal": {"rotulo": "Leitura literal / social", "itens": ["Reservatórios da City (topografia real)", "Família numerosa que se muda às pressas", "Interpretação de José Dionísio de Almeida"]},
+          "simbolica": {"rotulo": "Leitura simbólica / mítica", "itens": ["Metamorfose: o outro dentro de casa", "Lua como relógio do perigo", "Medo do vizinho desconhecido"]},
+          "cruzamento": "Verbete Lobisomem (Câmara Cascudo) e licantropia na tradição europeia."
+        },
+        "e": {
+          "pontos": ["Década de 1940, Morro da Penha.", "Crença do sétimo filho.", "Lenda de sons, não de visões.", "Expressa medos e trocas culturais de populações migrantes."],
+          "glossario": [["City", "The City of Santos Improvements, companhia de água, luz e bondes"], ["licantropia", "transformação de humano em lobo, no folclore"]]
+        }
+      }
+    },
+    {
+      "id": "loira-banheiro",
+      "titulo": "A Loira do Banheiro",
+      "subtitulo": "A lenda escolar que pode ter nascido em Santos",
+      "local": "Colégio Canadá, Boqueirão",
+      "municipio": "Santos",
+      "epoca": "Década de 1940",
+      "ano": 1942,
+      "tipo": "assombração",
+      "motivo": "escola",
+      "raridade": "Rara",
+      "resumo": "Uma das lendas escolares mais conhecidas do Brasil teria origem no Colégio Canadá, em Santos, nos anos 1940. Após a morte trágica de uma estudante, alunas passaram a relatar uma figura loira, pálida e vestida de branco no banheiro feminino. A história se espalhou para escolas de todo o país.",
+      "historia": "Segundo relatos reunidos pela Prefeitura de Santos, a lenda remonta à morte de uma adolescente no colégio, ligada ao sofrimento de ter sido separada da melhor amiga pelos pais. Depois disso, estudantes começaram a contar sobre uma entidade loira e pálida, de roupa branca e algodão no nariz, que aparecia no banheiro. A história migrou para outras escolas e ganhou variações e 'rituais' de invocação típicos das lendas de pátio. Não há fonte nomeada que confirme o episódio original: trata-se de tradição oral. Observação de cuidado: a narrativa envolve sofrimento e morte de uma jovem; ao usá-la com estudantes, privilegie a análise cultural.",
+      "personagens": ["loira-entidade"],
+      "tags": ["lenda escolar", "adolescência", "anos 1940", "tradição oral"],
+      "fontes": ["pms", "nm"],
+      "sensivel": true,
+      "datas": [],
+      "flashcard": {
+        "pergunta": "Que elementos fazem da Loira do Banheiro uma 'lenda de escola' e onde ela teria surgido?",
+        "b": {
+          "etapas": [
+            {"t": "Antecedentes", "d": "Anos 1940; amizade separada à força pela família.", "ic": "ampulheta"},
+            {"t": "Ruptura", "d": "Morte trágica de uma estudante no colégio.", "ic": "vela"},
+            {"t": "Limiar", "d": "Aparições relatadas no banheiro feminino.", "ic": "espelho"},
+            {"t": "Legado", "d": "Lenda se espalha por escolas do Brasil.", "ic": "pergaminho"}
+          ],
+          "critico": "Ponto crítico: a origem santista é atribuída por relatos, sem documento nomeado."
+        },
+        "c": {
+          "manifestacao": "Figura loira, pálida, de branco, com algodão no nariz, no banheiro escolar.",
+          "contexto": "Colégio Canadá (Boqueirão); normas familiares rígidas sobre a juventude.",
+          "inflexao": "A migração para o repertório nacional de lendas escolares.",
+          "chave": "Espaço privado da escola + interdito + espelho = lenda de pátio."
+        },
+        "d": {
+          "entrada": "Lenda da Loira do Banheiro",
+          "literal": {"rotulo": "Leitura literal", "itens": ["Atribuição ao Colégio Canadá (relatos)", "Ausência de registro documental nomeado", "Difusão oral entre estudantes"]},
+          "simbolica": {"rotulo": "Leitura simbólica", "itens": ["Banheiro: espaço liminar e privado", "Espelho: duplo e identidade", "Medo coletivo como rito de grupo"]},
+          "cruzamento": "Comparar com Bloody Mary (EUA) e Hanako-san (Japão), também lendas de banheiro escolar."
+        },
+        "e": {
+          "pontos": ["Possível origem: Colégio Canadá, Santos, anos 1940.", "Tradição oral sem fonte primária.", "Paralelos internacionais em lendas escolares.", "Tema sensível: abordar com cuidado."],
+          "glossario": [["liminar", "que está na fronteira entre dois estados ou espaços"]]
+        }
+      }
+    },
+    {
+      "id": "santo-antonio-valongo",
+      "titulo": "Santo Antônio salva o Valongo",
+      "subtitulo": "A imagem que os operários não conseguiram tirar do altar",
+      "local": "Santuário de Santo Antônio do Valongo",
+      "municipio": "Santos",
+      "epoca": "1861",
+      "ano": 1861,
+      "tipo": "milagre",
+      "motivo": "igreja",
+      "raridade": "Rara",
+      "resumo": "Em 1861, o conjunto franciscano do Valongo deveria ser demolido para dar passagem à ferrovia Santos–Jundiaí. As obras começaram pelo convento, mas os operários não conseguiram remover a imagem de Santo Antônio do altar. A população viu nisso um milagre, defendeu a igreja e ela permaneceu de pé.",
+      "historia": "O Santuário de Santo Antônio do Valongo, a Capela da Venerável Ordem Terceira de São Francisco e um convento formavam um dos conjuntos franciscanos mais antigos do país. Com o traçado da primeira estrada de ferro paulista, a São Paulo Railway (Santos–Jundiaí), o conjunto ficou no caminho. O convento foi atingido, mas, segundo a tradição, a imagem do santo não saiu do lugar por mais que os operários tentassem. Os fiéis se mobilizaram e a igreja foi preservada, ao lado da estação ferroviária.",
+      "personagens": ["santo-antonio"],
+      "tags": ["milagre", "ferrovia", "patrimônio", "1861"],
+      "fontes": ["pms", "nm"],
+      "datas": [],
+      "flashcard": {
+        "pergunta": "Que conflito entre progresso e fé o milagre do Valongo encena?",
+        "b": {
+          "etapas": [
+            {"t": "Condições", "d": "Conjunto franciscano antigo no caminho da ferrovia.", "ic": "bussola"},
+            {"t": "Ruptura", "d": "1861: demolição começa pelo convento.", "ic": "ampulheta"},
+            {"t": "Limiar", "d": "A imagem de Santo Antônio não sai do altar.", "ic": "chave"},
+            {"t": "Legado", "d": "Fiéis defendem a igreja; ela é preservada.", "ic": "pergaminho"}
+          ],
+          "critico": "Ponto crítico: a resistência da imagem vira argumento popular de preservação."
+        },
+        "c": {
+          "manifestacao": "Imagem sacra impossível de remover.",
+          "contexto": "Construção da ferrovia Santos–Jundiaí (São Paulo Railway).",
+          "inflexao": "Mobilização dos fiéis diante da obra.",
+          "chave": "O santo 'escolhe ficar': fé como defesa do patrimônio."
+        },
+        "d": {
+          "entrada": "Tradição do Valongo",
+          "literal": {"rotulo": "Leitura literal / histórica", "itens": ["Obra ferroviária em Santos (déc. de 1860)", "Demolição parcial do convento", "Igreja preservada ao lado da estação"]},
+          "simbolica": {"rotulo": "Leitura simbólica", "itens": ["Sagrado × máquina", "Imobilidade como vontade divina", "Comunidade guardiã da memória"]},
+          "cruzamento": "Comparar com lendas de imagens que 'voltam' ou 'não se movem' (Lenda do Culto, Revista de História USP)."
+        },
+        "e": {
+          "pontos": ["Ano: 1861.", "Contexto: ferrovia Santos–Jundiaí.", "Milagre: imagem imóvel.", "Resultado: igreja preservada."],
+          "glossario": [["Ordem Terceira", "associação de leigos ligada a uma ordem religiosa"], ["déc.", "década"]]
+        }
+      }
+    },
+    {
+      "id": "gruta-desterro",
+      "titulo": "A Gruta Escondida na Montanha",
+      "subtitulo": "O refúgio cavado pelo ferreiro Mestre Bartolomeu",
+      "local": "Morro de São Bento (capela de N. S. do Desterro)",
+      "municipio": "Santos",
+      "epoca": "Séc. XVI (chegada em 1532; ataque c. 1590)",
+      "ano": 1590,
+      "tipo": "milagre",
+      "motivo": "gruta",
+      "raridade": "Épica",
+      "resumo": "O ferreiro português Mestre Bartolomeu chegou em 1532, ergueu uma capela a Nossa Senhora do Desterro e passou a vida forjando ferramentas. Antes de morrer, falou ao filho de uma 'grande obra' inacabada. Anos depois, durante um ataque de corsários, o filho guiou o povo até uma gruta escondida que o pai havia escavado — e os invasores nunca a encontraram.",
+      "historia": "Mestre Bartolomeu teria se estabelecido no morro central de suas terras, onde construiu uma capela e trabalhou sem jamais voltar a Portugal. Ao filho, Bartolomeu Fernandes, deixou a menção a uma obra que não veria concluída. Quando corsários ingleses (chamados na versão de 'Cook') atacaram a vila, o filho levou os moradores a uma gruta oculta entre pedras e bananeiras, cavada pelo pai com as próprias ferramentas. Os invasores saquearam a vila por um mês sem achar o refúgio. O local daria origem ao Mosteiro de São Bento, hoje Museu de Arte Sacra.",
+      "personagens": ["mestre-bartolomeu", "bartolomeu-fernandes"],
+      "tags": ["refúgio", "ferreiro", "corsários", "séc. XVI"],
+      "fontes": ["delpasso", "revusp"],
+      "datas": [],
+      "flashcard": {
+        "pergunta": "Qual era a 'grande obra' de Mestre Bartolomeu e como ela salvou a vila?",
+        "b": {
+          "etapas": [
+            {"t": "Antecedentes", "d": "1532: ferreiro português se fixa e ergue capela.", "ic": "martelo"},
+            {"t": "Limiar", "d": "No leito de morte, fala ao filho de uma obra inacabada.", "ic": "vela"},
+            {"t": "Ruptura", "d": "Ataque de corsários; o filho guia o povo à gruta.", "ic": "espada"},
+            {"t": "Legado", "d": "Refúgio vira lugar do Mosteiro de São Bento.", "ic": "pergaminho"}
+          ],
+          "critico": "Ponto crítico: a 'obra' é revelada só na crise — trabalho silencioso como salvação."
+        },
+        "c": {
+          "manifestacao": "Gruta oculta que esconde a população dos invasores.",
+          "contexto": "Primeiras décadas da colonização; ataques ingleses ao litoral.",
+          "inflexao": "Herança paterna decifrada pelo filho.",
+          "chave": "Ferramenta + fé + segredo = refúgio."
+        },
+        "d": {
+          "entrada": "Lenda da gruta do Desterro",
+          "literal": {"rotulo": "Leitura literal", "itens": ["Capela de N. S. do Desterro no Morro de São Bento", "Ataques de corsários no fim do séc. XVI", "Origem do mosteiro beneditino"]},
+          "simbolica": {"rotulo": "Leitura simbólica", "itens": ["Gruta como ventre protetor", "Ferreiro: artífice que transforma a matéria", "Desterro: exílio que vira abrigo"]},
+          "cruzamento": "Ligação direta com O Fantasma de Frei Gaspar (mesmo morro) e com o Milagre de Monte Serrat (outro refúgio)."
+        },
+        "e": {
+          "pontos": ["Chegada do ferreiro: 1532.", "Herói: Bartolomeu Fernandes, o filho.", "Refúgio nunca achado pelos corsários.", "Local ligado ao Mosteiro de São Bento."],
+          "glossario": [["N. S.", "Nossa Senhora"], ["sesmaria", "lote de terra concedido pela Coroa portuguesa"], ["séc.", "século"]]
+        }
+      }
+    },
+    {
+      "id": "frei-gaspar-arte-sacra",
+      "titulo": "O Fantasma do Museu de Arte Sacra",
+      "subtitulo": "Frei Gaspar ainda caminha pelo antigo mosteiro",
+      "local": "Museu de Arte Sacra de Santos (antigo Mosteiro de São Bento)",
+      "municipio": "Santos",
+      "epoca": "Relatos do séc. XX",
+      "ano": 1935,
+      "tipo": "assombração",
+      "motivo": "mosteiro",
+      "raridade": "Rara",
+      "resumo": "No antigo Mosteiro de São Bento, hoje Museu de Arte Sacra, funcionários e visitantes relatam passos, um sino que toca sozinho e vultos. A principal 'alma' seria Frei Gaspar da Madre de Deus, beneditino e historiador falecido em 1800, enterrado no mosteiro.",
+      "historia": "Frei Gaspar da Madre de Deus (Gaspar Teixeira de Azevedo), autor das Memórias para a história da Capitania de São Vicente (1797), morreu em 1800 e foi sepultado no mosteiro, junto à capela de Nossa Senhora do Desterro. Um ex-seminarista que esteve no local em 1935 disse tê-lo visto andando pelas salas e sentado em sua antiga cela. Outros relatos falam de um sino que badala sem vento, de mulheres com roupas antigas cruzando da sacristia para a capela ao meio-dia e de passos que fizeram o chão tremer no porão. O acervo do museu inclui uma imagem de Santa Catarina de Alexandria que, segundo a tradição, foi lançada ao mar por homens de Cavendish em 1591 e recuperada décadas depois.",
+      "personagens": ["frei-gaspar", "seo-arlindo", "thomas-cavendish"],
+      "tags": ["mosteiro", "historiador", "museu", "assombração"],
+      "fontes": ["memoria", "fgaspar"],
+      "datas": [],
+      "flashcard": {
+        "pergunta": "Por que a figura de Frei Gaspar é especialmente simbólica para um museu de memória?",
+        "b": {
+          "etapas": [
+            {"t": "Antecedentes", "d": "Mosteiro beneditino (séc. XVII); Frei Gaspar escreve as Memórias (1797).", "ic": "pergaminho"},
+            {"t": "Evento", "d": "1800: morte e sepultamento no mosteiro.", "ic": "vela"},
+            {"t": "Limiar", "d": "1935: ex-seminarista relata ver o frei na antiga cela.", "ic": "lua"},
+            {"t": "Legado", "d": "Museu de Arte Sacra coleciona obras e assombrações.", "ic": "ampulheta"}
+          ],
+          "critico": "Ponto crítico: o historiador da capitania vira 'guardião' do próprio arquivo."
+        },
+        "c": {
+          "manifestacao": "Passos, sino sozinho, vultos de monges e mulheres de roupas antigas.",
+          "contexto": "Antigo mosteiro convertido em museu; acervo de cerca de 1.200 peças.",
+          "inflexao": "Saída dos monges (1942) e abertura ao público.",
+          "chave": "Memória institucional personificada num fantasma."
+        },
+        "d": {
+          "entrada": "Relatos do MASS",
+          "literal": {"rotulo": "Leitura literal / documental", "itens": ["Biografia de Frei Gaspar (fonte primária: Memórias, 1797)", "Testemunhos orais (seminarista, jardineiro, guarda)", "Peças do acervo (Santa Catarina)"]},
+          "simbolica": {"rotulo": "Leitura simbólica", "itens": ["Fantasma como guardião do arquivo", "Sino: chamado ao rito", "Respeito à vontade dos mortos (caso de seo Arlindo)"]},
+          "cruzamento": "Ver também A Gruta Escondida na Montanha (mesmo morro) e O Milagre de Monte Serrat (Cavendish)."
+        },
+        "e": {
+          "pontos": ["Frei Gaspar morreu em 1800.", "Obra: Memórias para a história da Capitania de São Vicente (1797).", "Relatos são orais e recentes.", "Museu = lugar de memória e de lenda."],
+          "glossario": [["MASS", "Museu de Arte Sacra de Santos"], ["beneditino", "monge da Ordem de São Bento"], ["séc.", "século"]]
+        }
+      }
+    },
+    {
+      "id": "quebra-lampioes",
+      "titulo": "O Quebra-Lampiões",
+      "subtitulo": "A noite em que Santos apagou a cidade",
+      "local": "Ruas centrais e chafarizes de Santos",
+      "municipio": "Santos",
+      "epoca": "23 de dezembro de 1884",
+      "ano": 1884,
+      "tipo": "história-lenda",
+      "motivo": "lampiao",
+      "raridade": "Comum",
+      "resumo": "Em 23 de dezembro de 1884, revoltada com a falta de água e os preços da companhia de água, gás e bondes, a população quebrou lampiões, danificou bondes e arrancou torneiras de chafarizes. A versão popular acrescenta fuga do gerente e promessas para acalmar a multidão; depois, o abastecimento foi regularizado.",
+      "historia": "A Companhia de Água, Gás e Bondes, dirigida por capital inglês, era alvo de queixas por falta de água e tarifas altas. Após uma reunião com discursos inflamados, a multidão destruiu lampiões a gás, depredou bondes e retirou torneiras de chafarizes. Na versão narrada por Del Passo, o gerente teria se refugiado na Fortaleza da Barra Grande e sua esposa prometido iluminar as ruas principais caso ele fosse poupado. O episódio é histórico, mas detalhes como nomes e promessas circulam sobretudo pela tradição oral e merecem conferência em jornais da época.",
+      "personagens": ["multidao-1884"],
+      "tags": ["revolta popular", "água", "1884", "serviços públicos"],
+      "fontes": ["delpasso", "nm"],
+      "datas": [{"d": "1884-12-23", "t": "Revolta do Quebra-Lampiões em Santos"}],
+      "flashcard": {
+        "pergunta": "O que causou o Quebra-Lampiões e o que é história e o que é lenda no episódio?",
+        "b": {
+          "etapas": [
+            {"t": "Condições", "d": "Falta de água e tarifas altas da companhia.", "ic": "gota"},
+            {"t": "Ruptura", "d": "23/12/1884: discursos e revolta nas ruas.", "ic": "fogo"},
+            {"t": "Desdobramento", "d": "Lampiões e bondes destruídos; gerente foge.", "ic": "lampiao"},
+            {"t": "Legado", "d": "Abastecimento regularizado; memória de resistência.", "ic": "pergaminho"}
+          ],
+          "critico": "Ponto crítico: fato histórico com 'camada lendária' (promessas, fugas, nomes)."
+        },
+        "c": {
+          "manifestacao": "Revolta urbana contra serviço público precário.",
+          "contexto": "Santos portuária de 1884; concessões a empresas estrangeiras.",
+          "inflexao": "A destruição da iluminação como gesto simbólico.",
+          "chave": "Sem água, a cidade apaga a luz de quem a explora."
+        },
+        "d": {
+          "entrada": "Episódio de 1884",
+          "literal": {"rotulo": "Leitura literal / histórica", "itens": ["Data: 23 de dezembro de 1884", "Alvo: companhia de água, gás e bondes", "Danos: lampiões, bondes, chafarizes"]},
+          "simbolica": {"rotulo": "Leitura simbólica", "itens": ["Luz/escuridão como poder", "Água como direito", "Herói coletivo: a multidão"]},
+          "cruzamento": "Comparar com a Revolta da Vacina (Rio, 1904) e outras revoltas urbanas por serviços."
+        },
+        "e": {
+          "pontos": ["Data-âncora: 23/12/1884.", "Causa: água escassa e cara.", "Distinguir fato documentado de acréscimos orais.", "Conferir na imprensa santista da época."],
+          "glossario": [["bonde", "veículo sobre trilhos para transporte urbano"]]
+        }
+      }
+    },
+    {
+      "id": "vozes-das-bicas",
+      "titulo": "As Vozes das Bicas",
+      "subtitulo": "O 'falso milagre' dos meninos do Monte Serrat",
+      "local": "Encanamentos e bicas do Monte Serrat",
+      "municipio": "Santos",
+      "epoca": "Fim do séc. XIX",
+      "ano": 1890,
+      "tipo": "fenômeno",
+      "motivo": "fonte",
+      "raridade": "Comum",
+      "resumo": "No fim do séc. XIX, meninos descobriram que seus gritos nos canos do Monte Serrat ecoavam pelas bicas da vizinhança. As mulheres que buscavam água acharam que eram vozes do além, e os garotos passaram a 'cobrar' oferendas. O maior susto foi de um apagador de lampiões, que lutou contra um fantasma imaginário.",
+      "historia": "A rede de canos que descia do Monte Serrat funcionava como um tubo acústico. Os meninos perceberam o efeito e começaram a falar pelos encanamentos; nas bicas, as lavadeiras ouviam vozes misteriosas. Com o medo instalado, a brincadeira virou pequena chantagem: os 'espíritos' pediam guaraná e outros mimos. Certa noite, um apagador de lampiões ouviu os meninos conversando e, convencido de estar diante de uma alma, desferiu golpes no ar e nas paredes. A fonte citada por Del Passo para o caso é a obra 'Cidade e Cultura'.",
+      "personagens": ["meninos-das-bicas", "apagador-lampioes"],
+      "tags": ["humor", "acústica", "fim do séc. XIX", "fraude"],
+      "fontes": ["delpasso"],
+      "datas": [],
+      "flashcard": {
+        "pergunta": "Como um fenômeno acústico virou 'milagre' — e quem lucrou com isso?",
+        "b": {
+          "etapas": [
+            {"t": "Condições", "d": "Canos do Monte Serrat ligados às bicas.", "ic": "gota"},
+            {"t": "Evento", "d": "Meninos descobrem o eco e falam pelos canos.", "ic": "chave"},
+            {"t": "Desdobramento", "d": "Mulheres temem as vozes; 'oferendas' exigidas.", "ic": "ampulheta"},
+            {"t": "Legado", "d": "O apagador de lampiões luta com o vazio.", "ic": "lampiao"}
+          ],
+          "critico": "Ponto crítico: a explicação é física (propagação do som em tubos), o efeito é social."
+        },
+        "c": {
+          "manifestacao": "Vozes vindas das bicas de água.",
+          "contexto": "Bairros ao pé do morro, abastecidos por bicas públicas.",
+          "inflexao": "Quando os meninos percebem o poder que têm.",
+          "chave": "Todo milagre tem um mecanismo — às vezes, um menino no cano."
+        },
+        "d": {
+          "entrada": "Caso das vozes nas bicas",
+          "literal": {"rotulo": "Leitura literal / física", "itens": ["Propagação do som em tubulações", "Fonte: 'Cidade e Cultura' (via Del Passo)", "Testemunhas: lavadeiras, apagador"]},
+          "simbolica": {"rotulo": "Leitura simbólica", "itens": ["Paródia do milagre", "Infância como trickster", "Credulidade e poder"]},
+          "cruzamento": "Contrapor ao Milagre de Monte Serrat (mesmo morro) e ao Vulcão do Macuco (outro fenômeno explicado)."
+        },
+        "e": {
+          "pontos": ["Lenda cômica e desmistificadora.", "Mecanismo: eco nos encanamentos.", "Personagem-chave: o apagador de lampiões.", "Ensina a desconfiar de explicações sobrenaturais."],
+          "glossario": [["trickster", "figura mítica que engana e subverte regras"], ["séc.", "século"]]
+        }
+      }
+    },
+    {
+      "id": "chaguinhas",
+      "titulo": "Chaguinhas, o mártir da Liberdade",
+      "subtitulo": "O soldado da revolta de Santos cuja corda se rompeu",
+      "local": "Quartel de Santos (revolta) e Largo da Forca, São Paulo (execução)",
+      "municipio": "Santos / São Paulo",
+      "epoca": "1821",
+      "ano": 1821,
+      "tipo": "história-lenda",
+      "motivo": "corda",
+      "raridade": "Lendária",
+      "resumo": "Em 1821, soldados brasileiros se amotinaram em Santos contra soldos atrasados e o tratamento desigual em relação às tropas portuguesas. O cabo Francisco José das Chagas, o Chaguinhas, foi condenado à forca em São Paulo. Segundo os relatos, a corda se rompeu mais de uma vez e o povo pediu 'liberdade' — origem possível do nome do bairro paulistano.",
+      "historia": "O motim do Batalhão de Caçadores em Santos, em 1821, reclamava pagamentos atrasados e equipamentos. Reprimida a revolta, Chaguinhas e Joaquim José Cotindiba foram levados para execução pública em São Paulo, no Largo da Forca, em 20 de setembro de 1821. Os relatos (registrados pelo IHGSP e repetidos pela tradição) dizem que a corda arrebentou duas ou três vezes; a multidão viu um sinal divino e clamou por clemência, que foi negada. No local surgiu a capela de Santa Cruz dos Enforcados, e Chaguinhas tornou-se santo popular venerado na Capela dos Aflitos. Um folheto impresso em 1821 sobre o motim e o enforcamento é a fonte de época mais próxima.",
+      "personagens": ["chaguinhas-cabo", "cotindiba"],
+      "tags": ["motim", "1821", "santo popular", "independência"],
+      "fontes": ["folheto1821", "chag_ihgsp", "nm"],
+      "datas": [{"d": "1821-09-20", "t": "Execução de Chaguinhas no Largo da Forca (São Paulo)"}],
+      "flashcard": {
+        "pergunta": "Por que a execução de Chaguinhas virou lenda e culto popular?",
+        "b": {
+          "etapas": [
+            {"t": "Antecedentes", "d": "Soldos atrasados e desigualdade entre tropas.", "ic": "ampulheta"},
+            {"t": "Ruptura", "d": "1821: motim em Santos; líderes condenados.", "ic": "espada"},
+            {"t": "Limiar", "d": "20/9/1821: a corda se rompe; povo pede 'liberdade'.", "ic": "corda"},
+            {"t": "Legado", "d": "Santo popular; nome do bairro da Liberdade (versão).", "ic": "pergaminho"}
+          ],
+          "critico": "Ponto crítico: o rompimento da corda lido como sinal de inocência."
+        },
+        "c": {
+          "manifestacao": "Corda que arrebenta na forca, repetidas vezes.",
+          "contexto": "Véspera da Independência (1822); tensão entre tropas brasileiras e portuguesas.",
+          "inflexao": "Clemência negada transforma o condenado em mártir.",
+          "chave": "Injustiça + sinal 'divino' = santo do povo."
+        },
+        "d": {
+          "entrada": "Caso Chaguinhas",
+          "literal": {"rotulo": "Leitura literal / documental", "itens": ["Folheto de 1821 (BBM-USP)", "Relatos registrados pelo IHGSP", "Capela dos Aflitos e Santa Cruz dos Enforcados"]},
+          "simbolica": {"rotulo": "Leitura simbólica", "itens": ["Martírio e santidade popular", "Corda rompida: julgamento divino", "'Liberdade' como grito e topônimo"]},
+          "cruzamento": "Comparar com Tiradentes (1792) na construção de mártires nacionais."
+        },
+        "e": {
+          "pontos": ["Motim em Santos, execução em São Paulo (20/9/1821).", "Corda rompida: 2 ou 3 vezes, conforme a versão.", "Culto popular na Capela dos Aflitos.", "Uma das explicações para o nome do bairro da Liberdade."],
+          "glossario": [["IHGSP", "Instituto Histórico e Geográfico de São Paulo"], ["BBM-USP", "Biblioteca Brasiliana Guita e José Mindlin, Universidade de São Paulo"], ["soldo", "pagamento do militar"]]
+        }
+      }
+    },
+    {
+      "id": "rato-sobrenome",
+      "titulo": "O Rato que Virou Sobrenome",
+      "subtitulo": "Do Armazém do Rato à família Ribeiro Rato",
+      "local": "Rua Setentrional / Beco do Arsenal (atual Praça da República)",
+      "municipio": "Santos",
+      "epoca": "Séc. XIX (morte em 1854)",
+      "ano": 1854,
+      "tipo": "história-lenda",
+      "motivo": "rato",
+      "raridade": "Comum",
+      "resumo": "Francisco José Ribeiro tinha um armazém de secos e molhados tão infestado de ratos que o povo o apelidou de 'Armazém do Rato'. O dono, já chamado de 'Sr. Rato', incorporou o apelido ao nome e virou Francisco José Ribeiro Rato — sobrenome que seus descendentes carregam.",
+      "historia": "O armazém ficava na Rua Setentrional, no Beco do Arsenal, área da atual Praça da República. A fama dos roedores se espalhou e o apelido grudou no comerciante, que acabou adotando-o oficialmente. Ele morreu em 1854. A história, citada por Del Passo a partir de 'Cidade e Cultura', é uma pequena lenda urbana sobre como apelidos viram identidade.",
+      "personagens": ["sr-rato"],
+      "tags": ["humor", "onomástica", "comércio", "séc. XIX"],
+      "fontes": ["delpasso", "nm"],
+      "datas": [],
+      "flashcard": {
+        "pergunta": "Como um apelido comercial virou sobrenome de família em Santos?",
+        "b": {
+          "etapas": [
+            {"t": "Condições", "d": "Armazém de secos e molhados infestado de ratos.", "ic": "casa"},
+            {"t": "Evento", "d": "O povo apelida o lugar de 'Armazém do Rato'.", "ic": "chave"},
+            {"t": "Transformação", "d": "O dono adota 'Rato' como sobrenome.", "ic": "pergaminho"},
+            {"t": "Legado", "d": "Descendentes 'Ribeiro Rato'; morte em 1854.", "ic": "ampulheta"}
+          ],
+          "critico": "Ponto crítico: o apelido pejorativo vira marca de identidade assumida."
+        },
+        "c": {
+          "manifestacao": "Apelido popular incorporado ao nome civil.",
+          "contexto": "Comércio portuário do séc. XIX; centro antigo de Santos.",
+          "inflexao": "A adoção voluntária do apelido.",
+          "chave": "Quem dá o nome é o povo."
+        },
+        "d": {
+          "entrada": "Caso do Sr. Rato",
+          "literal": {"rotulo": "Leitura literal", "itens": ["Localização: Beco do Arsenal (Praça da República)", "Morte do comerciante: 1854", "Fonte: 'Cidade e Cultura' (via Del Passo)"]},
+          "simbolica": {"rotulo": "Leitura simbólica", "itens": ["Nome como destino", "Humor popular como memória", "Inversão do estigma"]},
+          "cruzamento": "Comparar com sobrenomes originados de alcunhas e ofícios na tradição luso-brasileira."
+        },
+        "e": {
+          "pontos": ["Lenda cômica de onomástica.", "Local: atual Praça da República.", "Sobrenome Ribeiro Rato.", "Morte em 1854."],
+          "glossario": [["secos e molhados", "armazém de alimentos e bebidas"], ["onomástica", "estudo dos nomes próprios"]]
+        }
+      }
+    },
+    {
+      "id": "fonte-dom-pedro",
+      "titulo": "A Fonte de Dom Pedro II",
+      "subtitulo": "A inscrição do 'imperador poeta' no Morro de São Bento",
+      "local": "Morro de São Bento",
+      "municipio": "Santos",
+      "epoca": "1846",
+      "ano": 1846,
+      "tipo": "história-lenda",
+      "motivo": "fonte",
+      "raridade": "Rara",
+      "resumo": "Em fevereiro de 1846, Dom Pedro II e a imperatriz Teresa Cristina visitaram Santos, e uma fonte no Morro de São Bento recebeu a inscrição 'D.P.II – 1846'. A lenda diz que o imperador, encantado com a água, improvisou uma quadrinha que teria sido gravada na pedra.",
+      "historia": "A visita imperial de 1846 deixou marcas na cidade, entre elas a fonte inaugurada no Morro de São Bento com a inscrição gravada na rocha. A tradição acrescenta o episódio poético: o monarca, conhecido pelo gosto pelas letras, teria composto versos sobre a fonte. A inscrição ainda existe, mas, segundo Del Passo, está mal conservada. Distinguir a visita documentada da autoria dos versos, que não tem confirmação nas fontes consultadas.",
+      "personagens": ["dom-pedro-ii"],
+      "tags": ["Império", "visita imperial", "inscrição", "1846"],
+      "fontes": ["delpasso", "nm"],
+      "datas": [{"d": "1846-02-18", "t": "Visita de Dom Pedro II e Teresa Cristina a Santos (data segundo Del Passo)"}],
+      "flashcard": {
+        "pergunta": "O que é documentado e o que é lenda na Fonte de Dom Pedro II?",
+        "b": {
+          "etapas": [
+            {"t": "Antecedentes", "d": "Jovem imperador percorre as províncias.", "ic": "coroa"},
+            {"t": "Evento", "d": "Fev. 1846: visita a Santos com a imperatriz.", "ic": "ampulheta"},
+            {"t": "Transformação", "d": "Inscrição 'D.P.II – 1846' gravada na rocha.", "ic": "pergaminho"},
+            {"t": "Legado", "d": "Lenda dos versos improvisados; marco esquecido.", "ic": "gota"}
+          ],
+          "critico": "Ponto crítico: a autoria dos versos é atribuição da tradição, não fato confirmado."
+        },
+        "c": {
+          "manifestacao": "Marco imperial gravado numa fonte.",
+          "contexto": "Segundo Reinado; viagens de Pedro II pelo país.",
+          "inflexao": "A atribuição poética que 'humaniza' o monarca.",
+          "chave": "Pedra registra o fato; o povo acrescenta a poesia."
+        },
+        "d": {
+          "entrada": "Fonte do Morro de São Bento",
+          "literal": {"rotulo": "Leitura literal", "itens": ["Inscrição D.P.II – 1846", "Visita imperial a Santos", "Estado de conservação precário"]},
+          "simbolica": {"rotulo": "Leitura simbólica", "itens": ["Rei-poeta: poder e cultura", "Água como bênção ao visitante", "Monumento esquecido = memória em risco"]},
+          "cruzamento": "Comparar com a Fonte do Itororó (água e pertencimento)."
+        },
+        "e": {
+          "pontos": ["Ano: 1846.", "Inscrição D.P.II.", "Versos: atribuição lendária.", "Patrimônio a preservar."],
+          "glossario": [["D.P.II", "Dom Pedro II"], ["Segundo Reinado", "período de governo de D. Pedro II (1840–1889)"]]
+        }
+      }
+    }
+  ],
+  "personagens": [
+    {"id": "maria-maracaja", "nome": "Maria, 'a Maracajá'", "papel": "Mãe enlutada tida como fantasma", "classe": "Espectro Velado", "tipo": "beata", "raridade": "Lendária", "historico": "incerto", "mitos": ["fantasma-paqueta"], "bio": "Moça de família tradicional que, segundo as versões, perdeu o filho recém-nascido e passou a chorá-lo toda noite no portão do Paquetá. A cidade a viu como alma penada.", "atributos": {"misterio": 10, "coragem": 6, "fe": 8, "astucia": 4, "assombro": 9}, "habilidade": "Véu da Meia-Noite: desaparece quando todos a esperam."},
+    {"id": "velha-feiticeira", "nome": "A Velha da Pedra", "papel": "Mãe arrependida temida como bruxa", "classe": "Feiticeira Penitente", "tipo": "bruxa", "raridade": "Épica", "historico": "lenda", "mitos": ["pedra-feiticeira"], "bio": "Abandonou os filhos para seguir um militar e viveu décadas numa gruta no sopé do Monte Serrat, dançando junto ao fogo. Voltou para pedir perdão ao filho moribundo.", "atributos": {"misterio": 9, "coragem": 5, "fe": 6, "astucia": 7, "assombro": 8}, "habilidade": "Fogueira do Remorso: revela a verdade ao fim da partida."},
+    {"id": "antoninho", "nome": "Antoninho", "papel": "Despachante generoso, filho abandonado", "classe": "Coração Generoso", "tipo": "povo", "raridade": "Rara", "historico": "lenda", "mitos": ["pedra-feiticeira"], "bio": "Criado por parentes após o abandono da mãe, tornou-se despachante da Alfândega e ajudava os pobres. Perdoou a mãe na noite em que morreu.", "atributos": {"misterio": 3, "coragem": 7, "fe": 9, "astucia": 6, "assombro": 2}, "habilidade": "Perdão: anula uma carta de assombro."},
+    {"id": "dona-angelina", "nome": "Dona Angelina", "papel": "Vizinha que mediou o reencontro", "classe": "Mediadora", "tipo": "povo", "raridade": "Comum", "historico": "lenda", "mitos": ["pedra-feiticeira"], "bio": "Dona da chácara vizinha à Pedra da Feiticeira, conhecia o segredo e levou a mãe ao leito do filho.", "atributos": {"misterio": 5, "coragem": 8, "fe": 7, "astucia": 8, "assombro": 1}, "habilidade": "Ponte: une duas cartas do mesmo mito."},
+    {"id": "orville-derby", "nome": "Orville Derby", "papel": "Geólogo associado à explicação do 'vulcão'", "classe": "Cientista Investigador", "tipo": "cientista", "raridade": "Rara", "historico": "historico", "mitos": ["vulcao-macuco"], "bio": "Geólogo de atuação no Brasil no fim do séc. XIX. Em uma das versões, explica o 'vulcão' do Macuco como gás sob pressão de um poço perfurado.", "atributos": {"misterio": 2, "coragem": 6, "fe": 3, "astucia": 10, "assombro": 1}, "habilidade": "Método Científico: transforma um 'milagre' em fenômeno."},
+    {"id": "romeiros-macuco", "nome": "Os Romeiros do Vulcão", "papel": "Multidão de curiosos, devotos e ambulantes", "classe": "Coro Popular", "tipo": "povo", "raridade": "Comum", "historico": "coletivo", "mitos": ["vulcao-macuco"], "bio": "Gente da cidade e da capital que foi ver o fogo: uns rezavam, outros riam, outros vendiam lanches.", "atributos": {"misterio": 4, "coragem": 5, "fe": 7, "astucia": 5, "assombro": 6}, "habilidade": "Romaria: cada carta do mito ganha +1 de Fé."},
+    {"id": "ns-monte-serrat", "nome": "Nossa Senhora do Monte Serrat", "papel": "Padroeira de Santos", "classe": "Guardiã da Montanha", "tipo": "santo", "raridade": "Lendária", "historico": "devocao", "mitos": ["monte-serrat"], "bio": "Imagem venerada no alto do Monte Serrat. A tradição lhe atribui o desabamento que deteve os invasores; festa em 8 de setembro.", "atributos": {"misterio": 8, "coragem": 9, "fe": 10, "astucia": 6, "assombro": 5}, "habilidade": "Avalanche Sagrada: bloqueia um ataque inimigo."},
+    {"id": "joris-spilbergen", "nome": "Joris van Spilbergen", "papel": "Almirante holandês (1615)", "classe": "Almirante Corsário", "tipo": "pirata", "raridade": "Épica", "historico": "historico", "mitos": ["monte-serrat"], "bio": "Comandou a expedição holandesa que esteve diante de Santos e São Vicente em janeiro de 1615 e publicou relato com gravura da região (1619).", "atributos": {"misterio": 4, "coragem": 8, "fe": 3, "astucia": 8, "assombro": 6}, "habilidade": "Diário de Bordo: revela uma data verdadeira."},
+    {"id": "thomas-cavendish", "nome": "Thomas Cavendish", "papel": "Corsário inglês (1591)", "classe": "Corsário Saqueador", "tipo": "pirata", "raridade": "Épica", "historico": "historico", "mitos": ["monte-serrat", "frei-gaspar-arte-sacra"], "bio": "Navegador inglês que saqueou Santos em 1591. Aparece em versões do milagre de Monte Serrat e na tradição da imagem de Santa Catarina lançada ao mar.", "atributos": {"misterio": 5, "coragem": 9, "fe": 1, "astucia": 8, "assombro": 7}, "habilidade": "Saque: rouba 1 ponto de qualquer atributo."},
+    {"id": "ipupiara-criatura", "nome": "Ipupiara", "papel": "Criatura marinha da crônica de 1564", "classe": "Fera das Marés", "tipo": "fera", "raridade": "Lendária", "historico": "cronica", "mitos": ["ipupiara"], "bio": "Ser saído do mar descrito por Gândavo: grande porte, corpo peludo, focinho com bigodes. Nome tupi comumente traduzido como 'o que vive na água'.", "atributos": {"misterio": 9, "coragem": 10, "fe": 1, "astucia": 5, "assombro": 10}, "habilidade": "Abraço das Profundezas: vence empates no Assombro."},
+    {"id": "baltasar-ferreira", "nome": "Baltasar Ferreira", "papel": "Filho do capitão da vila; enfrentou o Ipupiara", "classe": "Caçador da Vila", "tipo": "soldado", "raridade": "Rara", "historico": "cronica", "mitos": ["ipupiara"], "bio": "Segundo Gândavo, saiu armado de madrugada e matou a criatura na praia de São Vicente.", "atributos": {"misterio": 2, "coragem": 10, "fe": 6, "astucia": 6, "assombro": 3}, "habilidade": "Vigília: age primeiro em noites sem lua."},
+    {"id": "setimo-filho", "nome": "O Sétimo Filho", "papel": "Lobisomem da crença popular", "classe": "Licantropo", "tipo": "fera", "raridade": "Épica", "historico": "lenda", "mitos": ["lobisomem-penha"], "bio": "Pela crença popular, o sétimo filho homem de um casal carrega a sina do lobisomem. Nunca foi visto: só ouvido.", "atributos": {"misterio": 9, "coragem": 7, "fe": 2, "astucia": 6, "assombro": 9}, "habilidade": "Lua Cheia: dobra o Assombro a cada 7 rodadas."},
+    {"id": "loira-entidade", "nome": "A Loira do Banheiro", "papel": "Entidade das lendas escolares", "classe": "Aparição do Espelho", "tipo": "estudante", "raridade": "Rara", "historico": "lenda", "mitos": ["loira-banheiro"], "bio": "Figura pálida e loira, de roupa branca, que estudantes dizem aparecer em banheiros escolares. Teria origem no Colégio Canadá.", "atributos": {"misterio": 8, "coragem": 3, "fe": 2, "astucia": 5, "assombro": 8}, "habilidade": "Reflexo: copia o atributo mais alto do oponente."},
+    {"id": "santo-antonio", "nome": "Santo Antônio do Valongo", "papel": "Imagem que não saiu do altar", "classe": "Guardião Imóvel", "tipo": "santo", "raridade": "Rara", "historico": "devocao", "mitos": ["santo-antonio-valongo"], "bio": "Imagem do santuário franciscano que, segundo a tradição, resistiu à demolição de 1861.", "atributos": {"misterio": 6, "coragem": 8, "fe": 10, "astucia": 4, "assombro": 4}, "habilidade": "Raiz no Altar: não pode ser removido do jogo."},
+    {"id": "mestre-bartolomeu", "nome": "Mestre Bartolomeu", "papel": "Ferreiro que cavou o refúgio", "classe": "Artífice da Montanha", "tipo": "ferreiro", "raridade": "Épica", "historico": "lenda", "mitos": ["gruta-desterro"], "bio": "Ferreiro português chegado em 1532; ergueu capela a N. S. do Desterro e escavou em segredo uma gruta-refúgio.", "atributos": {"misterio": 7, "coragem": 7, "fe": 9, "astucia": 9, "assombro": 2}, "habilidade": "Obra Secreta: esconde uma carta aliada por 1 rodada."},
+    {"id": "bartolomeu-fernandes", "nome": "Bartolomeu Fernandes", "papel": "Filho que guiou o povo à gruta", "classe": "Guia", "tipo": "povo", "raridade": "Rara", "historico": "lenda", "mitos": ["gruta-desterro"], "bio": "Decifrou a 'grande obra' do pai e conduziu os moradores ao esconderijo durante o ataque dos corsários.", "atributos": {"misterio": 4, "coragem": 9, "fe": 8, "astucia": 8, "assombro": 1}, "habilidade": "Trilha Oculta: troca uma carta da mão."},
+    {"id": "frei-gaspar", "nome": "Frei Gaspar da Madre de Deus", "papel": "Beneditino e historiador (m. 1800)", "classe": "Cronista Espectral", "tipo": "monge", "raridade": "Épica", "historico": "historico", "mitos": ["frei-gaspar-arte-sacra"], "bio": "Autor das Memórias para a história da Capitania de São Vicente (1797). Sepultado no mosteiro, é a principal 'alma' dos relatos do Museu de Arte Sacra.", "atributos": {"misterio": 8, "coragem": 5, "fe": 9, "astucia": 9, "assombro": 7}, "habilidade": "Memórias: recupera uma carta descartada."},
+    {"id": "seo-arlindo", "nome": "Seo Arlindo", "papel": "Benzedor do Morro de São Bento", "classe": "Benzedor", "tipo": "povo", "raridade": "Comum", "historico": "lenda", "mitos": ["frei-gaspar-arte-sacra"], "bio": "Benzedor que pediu para não passar diante do mosteiro depois de morto; no velório, o caixão não se abriu.", "atributos": {"misterio": 7, "coragem": 4, "fe": 8, "astucia": 5, "assombro": 6}, "habilidade": "Última Vontade: impede uma ação do oponente."},
+    {"id": "multidao-1884", "nome": "A Multidão de 1884", "papel": "Povo revoltado contra a falta de água", "classe": "Coro Rebelde", "tipo": "povo", "raridade": "Comum", "historico": "coletivo", "mitos": ["quebra-lampioes"], "bio": "Moradores que, em 23 de dezembro de 1884, quebraram lampiões e bondes contra a companhia de água e gás.", "atributos": {"misterio": 2, "coragem": 9, "fe": 4, "astucia": 6, "assombro": 5}, "habilidade": "Apagão: zera o Mistério do oponente."},
+    {"id": "meninos-das-bicas", "nome": "Os Meninos das Bicas", "papel": "Garotos que falavam pelos canos", "classe": "Trickster", "tipo": "crianca", "raridade": "Comum", "historico": "lenda", "mitos": ["vozes-das-bicas"], "bio": "Descobriram o eco dos canos do Monte Serrat e se passaram por espíritos para ganhar guaraná.", "atributos": {"misterio": 6, "coragem": 6, "fe": 1, "astucia": 10, "assombro": 5}, "habilidade": "Voz do Além: blefa um atributo."},
+    {"id": "apagador-lampioes", "nome": "O Apagador de Lampiões", "papel": "Vítima do 'falso milagre'", "classe": "Vigia Noturno", "tipo": "povo", "raridade": "Comum", "historico": "lenda", "mitos": ["vozes-das-bicas"], "bio": "Ao ouvir vozes nos canos, lutou contra um fantasma imaginário, golpeando o ar e as paredes.", "atributos": {"misterio": 3, "coragem": 7, "fe": 6, "astucia": 2, "assombro": 4}, "habilidade": "Ronda: ilumina a próxima carta do oponente."},
+    {"id": "chaguinhas-cabo", "nome": "Chaguinhas", "papel": "Cabo Francisco José das Chagas (1821)", "classe": "Mártir Popular", "tipo": "soldado", "raridade": "Lendária", "historico": "historico", "mitos": ["chaguinhas"], "bio": "Líder do motim de Santos por soldos atrasados. Executado em São Paulo em 20/9/1821; a corda teria se rompido. Venerado como santo popular.", "atributos": {"misterio": 7, "coragem": 10, "fe": 9, "astucia": 6, "assombro": 6}, "habilidade": "Corda Rompida: sobrevive à primeira derrota."},
+    {"id": "cotindiba", "nome": "Joaquim José Cotindiba", "papel": "Companheiro de motim de Chaguinhas", "classe": "Soldado Rebelde", "tipo": "soldado", "raridade": "Rara", "historico": "historico", "mitos": ["chaguinhas"], "bio": "Também condenado à forca pelo motim de 1821 em Santos.", "atributos": {"misterio": 3, "coragem": 9, "fe": 6, "astucia": 5, "assombro": 3}, "habilidade": "Lealdade: +2 de Coragem ao lado de Chaguinhas."},
+    {"id": "sr-rato", "nome": "Sr. Rato", "papel": "Francisco José Ribeiro Rato, comerciante", "classe": "Mercador", "tipo": "comerciante", "raridade": "Comum", "historico": "historico", "mitos": ["rato-sobrenome"], "bio": "Dono do 'Armazém do Rato', adotou o apelido como sobrenome. Morreu em 1854.", "atributos": {"misterio": 2, "coragem": 4, "fe": 4, "astucia": 8, "assombro": 2}, "habilidade": "Freguesia: compra uma carta extra."},
+    {"id": "dom-pedro-ii", "nome": "Dom Pedro II", "papel": "Imperador do Brasil (visita de 1846)", "classe": "Imperador Poeta", "tipo": "imperador", "raridade": "Épica", "historico": "historico", "mitos": ["fonte-dom-pedro"], "bio": "Visitou Santos em 1846 com a imperatriz Teresa Cristina; uma fonte no Morro de São Bento guarda a inscrição D.P.II – 1846.", "atributos": {"misterio": 4, "coragem": 6, "fe": 7, "astucia": 9, "assombro": 2}, "habilidade": "Decreto: escolhe o atributo da rodada."}
+  ]
+}
